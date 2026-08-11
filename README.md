@@ -24,10 +24,10 @@ A customizable browser-based photobooth built with Next.js, TypeScript, Tailwind
 ## 🚀 Run Locally
 
 
-git clone https://github.com/sayantani-aiml/internet-photobooth.git
-cd internet-photobooth
-npm install
-npm run dev
+git clone https://github.com/sayantani-aiml/internet-photobooth.git 
+cd internet-photobooth 
+npm install 
+npm run dev 
 
 Open http://localhost:3000 and allow camera access.
 
@@ -42,4 +42,3 @@ Sayantani Das
 GitHub: https://github.com/sayantani-aiml
 
 
-**This is the one I'd use.** It tells your friend what the project is, what it does, how to run it, and where to see it—without making them read a whole PhD thesis before touching the photobooth. 😭📸
