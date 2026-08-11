@@ -23,7 +23,7 @@ A customizable browser-based photobooth built with Next.js, TypeScript, Tailwind
 
 ## 🚀 Run Locally
 
-```bash
+
 git clone https://github.com/sayantani-aiml/internet-photobooth.git
 cd internet-photobooth
 npm install
