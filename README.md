@@ -1,19 +1,45 @@
 # The Internet Photobooth 📸
 
-A browser-only photobooth experience built with Next.js, TypeScript, Tailwind-style CSS, Framer Motion, the Web Camera API, and Canvas.
+A customizable browser-based photobooth built with Next.js, TypeScript, Tailwind CSS, Framer Motion, Web Camera API, and Canvas.
 
-## Run it
+## ✨ Features
+
+- 📷 Capture photos using your webcam
+- 🖼️ Multiple photostrip layouts
+- 🎨 Photo filters
+- 🎀 Custom stickers
+- ✏️ Customize text, fonts, and backgrounds
+- 💾 Download photostrips as JPEG
+- ⚡ Fully browser-based — no backend required
+
+## 🛠️ Tech Stack
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Web Camera API
+- HTML Canvas
+
+## 🚀 Run Locally
 
 ```bash
+git clone https://github.com/sayantani-aiml/internet-photobooth.git
+cd internet-photobooth
 npm install
 npm run dev
-```
 
 Open http://localhost:3000 and allow camera access.
 
-## Notes
+🌐 Live Demo
 
-- Camera photos are captured locally in the browser.
-- The final strip is rendered locally with Canvas and downloaded as a JPEG.
-- No backend or account is required.
-- For production, serve over HTTPS because camera access requires a secure context (localhost works during development).
+https://sayantani-aiml.github.io/internet-photobooth/
+
+👩‍💻 Author
+
+Sayantani Das
+
+GitHub: https://github.com/sayantani-aiml
+
+
+**This is the one I'd use.** It tells your friend what the project is, what it does, how to run it, and where to see it—without making them read a whole PhD thesis before touching the photobooth. 😭📸
