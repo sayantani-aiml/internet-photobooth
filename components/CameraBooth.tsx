@@ -5,7 +5,9 @@ import type {
   RefObject,
   SetStateAction,
 } from "react";
+
 import { motion } from "framer-motion";
+
 import {
   Camera,
   Volume2,
@@ -14,15 +16,25 @@ import {
 
 type CameraBoothProps = {
   videoRef: RefObject<HTMLVideoElement | null>;
+
   photoCount: number;
+
   countdown: number | null;
+
   flash: boolean;
+
   prompt: string;
+
   error: string;
+
   sound: boolean;
- setSound: Dispatch<SetStateAction<boolean>>;
+
+  setSound: Dispatch<SetStateAction<boolean>>;
+
   filteredClass: string;
+
   photosTaken: number;
+
   onSnap: () => void;
 };
 
@@ -43,24 +55,55 @@ export default function CameraBooth({
     <motion.section
       key="camera"
       className="camera-stage screen"
-      initial={{ opacity: 0, y: 30 }}
-      animate={{ opacity: 1, y: 0 }}
+      initial={{
+        opacity: 0,
+        y: 30,
+      }}
+      animate={{
+        opacity: 1,
+        y: 0,
+      }}
+      transition={{
+        duration: 0.5,
+      }}
     >
+      {/* =========================
+          TOP BAR
+         ========================= */}
+
       <header className="topbar">
         <span className="rec">
-          <i /> REC
+          <i />
+          REC
         </span>
 
-        <span>{photosTaken + 1} of {photoCount}</span>
+        <span>
+          {Math.min(
+            photosTaken + 1,
+            photoCount
+          )}{" "}
+          of {photoCount}
+        </span>
 
         <button
+          type="button"
           className="icon-button"
-          onClick={() => setSound((s) => !s)}
+          onClick={() =>
+            setSound((s) => !s)
+          }
           aria-label="Toggle sound"
         >
-          {sound ? <Volume2 size={18} /> : <VolumeX size={18} />}
+          {sound ? (
+            <Volume2 size={18} />
+          ) : (
+            <VolumeX size={18} />
+          )}
         </button>
       </header>
+
+      {/* =========================
+          CAMERA
+         ========================= */}
 
       <div className="camera-frame">
         <video
@@ -70,55 +113,115 @@ export default function CameraBooth({
           muted
         />
 
-        <div className={`view-filter ${filteredClass}`} />
+        {/* EXISTING COLOR FILTER */}
 
-        {countdown !== null && (
-          <motion.div
-            key={countdown}
-            className="countdown"
-            initial={{ scale: 1.5, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-          >
-            {countdown === 0 ? "FLASH!" : countdown}
-          </motion.div>
-        )}
+        <div
+          className={`view-filter ${filteredClass}`}
+        />
 
-        {flash && (
-          <motion.div
-            className="flash"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-          />
-        )}
+        {/* CAMERA CORNERS */}
 
         <div className="camera-corner corner-tl" />
         <div className="camera-corner corner-tr" />
         <div className="camera-corner corner-bl" />
         <div className="camera-corner corner-br" />
+
+        {/* COUNTDOWN */}
+
+        {countdown !== null && (
+          <motion.div
+            key={countdown}
+            className="countdown"
+            initial={{
+              scale: 1.5,
+              opacity: 0,
+            }}
+            animate={{
+              scale: 1,
+              opacity: 1,
+            }}
+            transition={{
+              duration: 0.25,
+            }}
+          >
+            {countdown === 0
+              ? "FLASH!"
+              : countdown}
+          </motion.div>
+        )}
+
+        {/* CAMERA FLASH */}
+
+        {flash && (
+          <motion.div
+            className="flash"
+            initial={{
+              opacity: 0,
+            }}
+            animate={{
+              opacity: 1,
+            }}
+            exit={{
+              opacity: 0,
+            }}
+          />
+        )}
       </div>
 
-      <p className="prompt">{prompt}</p>
+      {/* =========================
+          PROMPT
+         ========================= */}
 
-      {error && <p className="camera-error">{error}</p>}
+      <p className="prompt">
+        {prompt}
+      </p>
+
+      {/* =========================
+          CAMERA ERROR
+         ========================= */}
+
+      {error && (
+        <p className="camera-error">
+          {error}
+        </p>
+      )}
+
+      {/* =========================
+          SNAP BUTTON
+         ========================= */}
 
       <button
+        type="button"
         className="snap-button"
         onClick={onSnap}
-        disabled={countdown !== null || !!error}
+        disabled={
+          countdown !== null ||
+          !!error
+        }
       >
         <Camera size={21} />
         SNAP
       </button>
 
+      {/* =========================
+          PHOTO PROGRESS
+         ========================= */}
+
       <div className="progress-dots">
-        {[0, 1, 2, 3].map((n) => (
-          <span
-            key={n}
-            className={n < photosTaken ? "done" : ""}
-          />
-        ))}
+        {Array.from(
+          { length: photoCount },
+          (_, index) => (
+            <span
+              key={index}
+              className={
+                index < photosTaken
+                  ? "done"
+                  : ""
+              }
+            />
+          )
+        )}
       </div>
     </motion.section>
   );
-}
+} 
