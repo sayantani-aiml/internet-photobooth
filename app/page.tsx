@@ -510,6 +510,7 @@ export default function Home() {
 
       const width = 900;
       const photoW = 780;
+
       const photoH = 585;
       const gap = 18;
       const pad = 60;
@@ -850,27 +851,23 @@ export default function Home() {
         {/* CAMERA */}
 
         {stage === "camera" && (
-          <CameraBooth
-            videoRef={videoRef}
-            photoCount={photoCount}
-            countdown={countdown}
-            flash={flash}
-            prompt={
-              prompts[
-                photos.length
-              ] ?? prompts[3]
-            }
-            error={error}
-            sound={sound}
-            setSound={setSound}
-            filteredClass={
-              filteredClass
-            }
-            photosTaken={
-              photos.length
-            }
-            onSnap={captureFour}
-          />
+         <CameraBooth
+  videoRef={videoRef}
+  photoCount={photoCount}
+  photos={photos}
+  countdown={countdown}
+  flash={flash}
+  prompt={
+    prompts[photos.length] ?? prompts[3]
+  }
+  error={error}
+  sound={sound}
+  setSound={setSound}
+  filteredClass={filteredClass}
+  photosTaken={photos.length}
+  
+  onSnap={captureFour}
+/>
         )}
 
         {/* DEVELOPING */}

@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,600;1,500&family=Space+Grotesk:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700&family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 :root{--bg:#090807;--cream:#f3eadc;--muted:#b9aa99;--pink:#ff6e83;--line:#594b3d;--panel:#14110f}
 *{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--bg);color:var(--cream)}body{font-family:'Space Grotesk',sans-serif}.app-shell{min-height:100vh;overflow:hidden;position:relative;background:radial-gradient(circle at 50% 25%,#211611 0,#0c0908 42%,#060606 100%)}button,input{font:inherit}.screen{width:min(1120px,100%);min-height:100vh;margin:auto;position:relative;z-index:2;padding:42px 28px 34px}.grain{position:fixed;inset:0;z-index:10;pointer-events:none;opacity:.09;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.65'/%3E%3C/svg%3E")}.stars{position:fixed;color:#f6d8ae;opacity:.55;letter-spacing:12px;font-size:12px}.stars-one{top:10%;left:5%}.stars-two{right:5%;top:27%}.eyebrow,.section-label{font:500 12px 'DM Mono',monospace;letter-spacing:3px}.landing{display:flex;flex-direction:column;align-items:center;text-align:center;justify-content:center}.string-lights{position:absolute;top:36px;left:5%;font-size:18px;letter-spacing:22px;color:#ffdca0;text-shadow:0 0 14px #ffbb60}.landing-copy{position:relative;z-index:3}.landing-copy .eyebrow{margin:0 0 6px}.landing-copy h1{font-size:clamp(48px,8vw,96px);line-height:.9;margin:0;color:#ffece0;letter-spacing:-4px;text-shadow:0 0 10px #ff516b,0 0 35px rgba(255,76,105,.5)}.tagline{font:italic 20px 'Playfair Display',serif;line-height:1.2;margin:20px 0;color:#e8d7c5}.booth-illustration{width:min(330px,75vw);height:360px;margin:-2px auto -20px;border:2px solid #3e2b20;border-radius:14px 14px 4px 4px;background:linear-gradient(90deg,#361811,#64251b 50%,#341510);box-shadow:inset 0 0 40px #150805,0 30px 80px rgba(0,0,0,.65);position:relative;padding-top:22px}.booth-sign{margin:auto;width:72%;background:#f0e3ca;color:#19130f;padding:11px;font:700 21px 'DM Mono';letter-spacing:3px;box-shadow:0 4px 0 #8d6f52}.booth-curtain{position:absolute;left:16%;right:16%;top:89px;bottom:0;border-radius:80px 80px 0 0;background:repeating-linear-gradient(90deg,#080707 0 16px,#1b1514 16px 30px,#080707 30px 45px);box-shadow:inset 0 20px 35px rgba(0,0,0,.8);display:flex;align-items:center;justify-content:center;color:#d6a775}.booth-price{position:absolute;right:-46px;top:170px;background:#11100e;border:1px solid #6a5540;padding:9px 7px;text-align:center;font:10px 'DM Mono';line-height:1.5;transform:rotate(3deg)}.booth-price span{color:#ff6e83}.primary-button,.secondary-button,.snap-button{border:0;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:10px;transition:.2s}.primary-button{background:var(--pink);color:#190c0d;border-radius:12px;padding:15px 28px;font-weight:700;box-shadow:0 8px 30px rgba(255,89,111,.25)}.primary-button:hover,.snap-button:hover{transform:translateY(-2px);filter:brightness(1.05)}.enter-button{min-width:235px}.tiny-note{font:11px 'DM Mono';color:#8e7c6d;margin-top:17px}.topbar{display:flex;align-items:center;justify-content:space-between;font:12px 'DM Mono';letter-spacing:2px;margin:0 auto 18px;width:min(760px,100%)}.rec{display:flex;align-items:center;gap:8px}.rec i{width:8px;height:8px;border-radius:50%;background:#ff4040;box-shadow:0 0 8px #ff4040}.icon-button{background:transparent;color:var(--cream);border:1px solid var(--line);border-radius:9px;padding:8px;cursor:pointer}.camera-stage{display:flex;flex-direction:column;align-items:center}.camera-frame{width:min(760px,100%);aspect-ratio:4/3;border:1px solid #6d5947;border-radius:24px;overflow:hidden;position:relative;background:#15100e;box-shadow:0 30px 80px rgba(0,0,0,.6)}.camera-video{width:100%;height:100%;object-fit:cover;transform:scaleX(-1)}.view-filter{position:absolute;inset:0;pointer-events:none}.filter-classic{filter:grayscale(1) contrast(1.08)}.filter-cherry{filter:sepia(.18) saturate(1.35) hue-rotate(-10deg)}.filter-vintage{filter:sepia(.38) contrast(.92) saturate(.82)}.filter-dream{filter:saturate(1.1) hue-rotate(12deg) brightness(1.05)}.view-filter.filter-classic{background:rgba(255,255,255,.02)}.view-filter.filter-cherry{background:rgba(180,30,70,.08)}.view-filter.filter-vintage{background:rgba(150,100,45,.12)}.view-filter.filter-dream{background:rgba(140,80,255,.08)}.countdown{position:absolute;inset:0;display:grid;place-items:center;font:700 clamp(70px,13vw,150px) 'DM Mono';color:#fff;text-shadow:0 5px 30px #000}.flash{position:absolute;inset:0;background:white;z-index:8}.camera-corner{position:absolute;width:30px;height:30px;border-color:#fff;border-style:solid;opacity:.8}.corner-tl{top:22px;left:22px;border-width:2px 0 0 2px}.corner-tr{top:22px;right:22px;border-width:2px 2px 0 0}.corner-bl{bottom:22px;left:22px;border-width:0 0 2px 2px}.corner-br{bottom:22px;right:22px;border-width:0 2px 2px 0}.prompt{font:italic 21px 'Playfair Display';margin:22px 0 16px;color:#dfcdbb}.snap-button{background:#ff6e83;color:#180c0d;border-radius:999px;padding:15px 35px;font-weight:700}.snap-button:disabled{opacity:.5;cursor:not-allowed}.progress-dots{display:flex;gap:7px;margin-top:20px}.progress-dots span{width:8px;height:8px;border-radius:50%;border:1px solid #756253}.progress-dots .done{background:#ff6e83;border-color:#ff6e83}.camera-error{max-width:620px;text-align:center;color:#ffb4b4;font-size:13px}.developing{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}.develop-icon{color:#f2c98f}.develop-text{font:italic 25px 'Playfair Display';color:#ff9bad}.develop-bar{width:min(420px,80vw);height:10px;border:1px solid #9d8b76;border-radius:999px;padding:1px;margin-top:18px}.develop-bar span{display:block;height:100%;background:#ff6e83;border-radius:999px;transition:width .1s}.percent{font:11px 'DM Mono';color:#aaa;margin:9px}.printer{width:250px;height:140px;background:linear-gradient(#24201c,#12100e);border:1px solid #5b4a3a;border-radius:16px;margin-top:20px;position:relative;box-shadow:0 20px 50px #000}.printer-slot{height:13px;background:#050505;border:1px solid #4c3c30;position:absolute;top:24px;left:20px;right:20px}.paper-peek{position:absolute;top:31px;left:42px;right:42px;height:80px;background:#f5eee1;border-radius:0 0 3px 3px}.result{display:grid;grid-template-columns:300px 1fr 300px;grid-template-rows:auto auto auto 1fr;gap:20px 36px;align-items:start;max-width:1080px}.result-header{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center}.result-header p{margin:0}.photo-strip{grid-row:2/5;grid-column:2;width:260px;justify-self:center;background:#f3ebdf;padding:15px 15px 22px;box-shadow:0 20px 55px rgba(0,0,0,.6);color:#1b1511}.strip-photo{width:100%;aspect-ratio:4/3;overflow:hidden;margin-bottom:7px}.strip-photo img{width:100%;height:100%;object-fit:cover;display:block}.strip-footer{text-align:center;padding-top:8px;position:relative}.strip-footer strong{font:700 10px 'DM Mono';letter-spacing:1px}.strip-footer span{display:block;font-size:13px;margin:3px}.strip-footer small{font:italic 13px 'Playfair Display';display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.filter-panel,.memory-panel{border:1px solid #443a31;background:rgba(20,17,15,.78);border-radius:15px;padding:17px}.filter-panel{grid-column:1;grid-row:2}.memory-panel{grid-column:3;grid-row:2}.section-label{color:#d5c0aa;margin:0 0 13px}.filter-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.filter-choice{border:0;background:transparent;color:#b9aa99;cursor:pointer;font-size:10px}.filter-choice.selected{color:#ff8797}.filter-thumb{display:block;width:100%;aspect-ratio:1/1;border-radius:9px;overflow:hidden;border:1px solid transparent;margin-bottom:6px}.filter-choice.selected .filter-thumb{border-color:#ff6e83;box-shadow:0 0 0 2px rgba(255,110,131,.15)}.filter-thumb img{width:100%;height:100%;object-fit:cover}.memory-input-wrap{display:flex;align-items:center;border:1px solid #5c4c3d;border-radius:10px;padding:0 10px}.memory-input-wrap input{width:100%;background:transparent;border:0;outline:0;color:var(--cream);padding:12px 2px;font:italic 18px 'Playfair Display'}.memory-input-wrap svg{color:#ff6e83}.date{text-align:center;color:#a89582;font:11px 'DM Mono';margin:11px 0 0}.actions{grid-column:3;grid-row:3;display:flex;flex-direction:column;gap:10px}.secondary-button{background:transparent;color:var(--cream);border:1px solid #5c4c3d;border-radius:12px;padding:14px 20px}.secondary-button:hover{background:#191411}.privacy{grid-column:1/-1;border:1px solid #40362e;border-radius:14px;padding:14px;display:flex;justify-content:space-around;gap:10px;flex-wrap:wrap;color:#a99785;font:10px 'DM Mono';margin:0}.hidden-canvas{display:none}
 @media(max-width:850px){.result{grid-template-columns:1fr 1fr;max-width:650px}.photo-strip{grid-column:1/-1;grid-row:2;width:250px}.filter-panel{grid-column:1;grid-row:3}.memory-panel{grid-column:2;grid-row:3}.actions{grid-column:1/-1;grid-row:4;flex-direction:row}.privacy{grid-row:5}.booth-price{right:-15px}}
@@ -1205,3 +1205,5954 @@
   min-width: 0;
 }
 
+/* =========================================================
+   INTERNET PHOTOBOOTH — NEW VISUAL SYSTEM
+   ========================================================= */
+
+:root {
+  --bg: #fff8f5;
+  --cream: #fff8f5;
+  --muted: #777b98;
+  --pink: #e98bbb;
+  --pink-light: #f6d9e8;
+  --blue: #6d82bd;
+  --blue-dark: #444d73;
+  --line: #e8c9d8;
+  --panel: #ffffff;
+  --text: #454866;
+}
+
+/* ---------- BASE ---------- */
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at 85% 20%,
+      rgba(242, 180, 211, 0.55),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 10% 90%,
+      rgba(167, 183, 235, 0.45),
+      transparent 27%
+    ),
+    #fff8f5;
+}
+
+/* ---------- GRAIN ---------- */
+
+.grain {
+  opacity: 0.025;
+}
+
+/* ---------- GENERIC TEXT ---------- */
+
+.eyebrow {
+  color: var(--blue);
+  letter-spacing: 2px;
+}
+
+.tagline {
+  color: var(--blue-dark);
+}
+
+/* ---------- LANDING ---------- */
+
+.landing {
+  width: min(1280px, 100%);
+  padding: 30px 48px 40px;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-columns: 1fr 0.95fr;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  gap: 20px 40px;
+
+  text-align: left;
+}
+
+/* ---------- LANDING COPY ---------- */
+
+.landing-copy {
+  grid-column: 1;
+  grid-row: 2;
+  align-self: center;
+  max-width: 620px;
+}
+
+.landing-copy .eyebrow {
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.landing-copy h1 {
+  margin: 0;
+  max-width: 600px;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-size: clamp(58px, 7vw, 100px);
+  line-height: 0.88;
+  letter-spacing: -5px;
+
+  color: var(--pink);
+  text-shadow: none;
+}
+
+.landing-copy h1::after {
+  content: " ♡";
+  color: var(--blue);
+  font-size: 0.65em;
+  vertical-align: 10px;
+}
+
+.landing-copy .tagline {
+  margin-top: 25px;
+
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+/* ---------- BOOTH ILLUSTRATION ---------- */
+
+.booth-illustration {
+  grid-column: 2;
+  grid-row: 2;
+
+  width: min(100%, 540px);
+  height: 520px;
+
+  margin: 0 auto;
+
+  border: 0;
+  border-radius: 35px;
+
+  background:
+    radial-gradient(
+      circle at 50% 40%,
+      rgba(255,255,255,0.9),
+      rgba(248,216,232,0.7) 55%,
+      rgba(222,217,247,0.55)
+    );
+
+  box-shadow: 0 25px 70px rgba(101, 91, 150, 0.18);
+
+  overflow: hidden;
+}
+
+/* Hide the old booth artwork for now.
+   We'll replace it with the Figma camera artwork. */
+
+.booth-sign,
+.booth-curtain,
+.booth-price {
+  display: none;
+}
+
+/* ---------- ENTER BUTTON ---------- */
+
+.primary-button {
+  background: var(--pink);
+  color: white;
+
+  border-radius: 999px;
+
+  padding: 15px 32px;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
+
+  box-shadow:
+    0 8px 20px rgba(233, 139, 187, 0.28);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.primary-button:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 12px 28px rgba(233, 139, 187, 0.35);
+}
+
+.enter-button {
+  grid-column: 1;
+  grid-row: 3;
+
+  width: 270px;
+  justify-self: start;
+}
+
+/* ---------- NOTE ---------- */
+
+.tiny-note {
+  grid-column: 2;
+  grid-row: 3;
+
+  justify-self: center;
+
+  color: var(--blue-dark);
+
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+}
+
+/* ---------- DOODLES ---------- */
+
+.landing-dots {
+  color: var(--blue);
+  opacity: 0.8;
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 850px) {
+
+  .landing {
+    display: flex;
+    flex-direction: column;
+
+    padding: 30px 22px 40px;
+
+    text-align: center;
+  }
+
+  .landing-copy {
+    max-width: 100%;
+  }
+
+  .landing-copy h1 {
+    font-size: clamp(55px, 14vw, 80px);
+    letter-spacing: -4px;
+  }
+
+  .booth-illustration {
+    width: min(100%, 480px);
+    height: 400px;
+  }
+
+  .enter-button {
+    width: 250px;
+    justify-self: center;
+  }
+
+  .tiny-note {
+    justify-self: center;
+  }
+}
+/* =========================================================
+   FIGMA LANDING PAGE
+   ========================================================= */
+
+.landing {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+
+  background:
+    radial-gradient(
+      circle at 85% 25%,
+      rgba(240, 185, 214, 0.42),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 10% 88%,
+      rgba(175, 187, 238, 0.42),
+      transparent 28%
+    ),
+    #fff8f5;
+
+  color: #41445f;
+}
+
+/* ================= NAVBAR ================= */
+
+.site-navbar {
+  width: calc(100% - 60px);
+  height: 70px;
+
+  margin: 20px auto 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 28px;
+
+  background: #ffecef;
+  border-radius: 18px;
+
+  box-sizing: border-box;
+}
+
+.site-logo {
+  display: flex;
+  flex-direction: column;
+
+  color: #41445f;
+
+  line-height: 0.85;
+}
+
+.site-logo span {
+  font-family: "Caveat", cursive;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.site-logo strong {
+  font-family: "Baloo", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.nav-links a {
+  color: #41445f;
+  text-decoration: none;
+
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #e274ac;
+  transform: translateY(-2px);
+}
+
+.nav-booth-button {
+  border: none;
+
+  background: #efa5c8;
+  color: #41445f;
+
+  padding: 13px 30px;
+
+  border-radius: 30px;
+
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.12);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.nav-booth-button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 7px 14px rgba(0, 0, 0, 0.14);
+}
+
+/* ================= HERO ================= */
+
+.landing-main {
+  width: min(1315px, calc(100% - 80px));
+  margin: 0 auto;
+}
+
+.hero-section {
+  min-height: 650px;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(500px, 642px);
+
+  gap: 30px;
+
+  align-items: center;
+}
+
+/* ================= HERO COPY ================= */
+
+.hero-copy {
+  position: relative;
+
+  min-width: 0;
+}
+
+.hero-title {
+  position: relative;
+
+  padding-left: 20px;
+}
+
+.hero-eyebrow {
+  margin: 0 0 20px 20px;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+
+  letter-spacing: 1px;
+
+  color: #7180b5;
+}
+
+.hero-internet,
+.hero-photobooth {
+  margin: 0;
+
+  font-family: "Baloo", sans-serif;
+  font-weight: 400;
+
+  line-height: 0.82;
+
+  letter-spacing: -3px;
+}
+
+.hero-internet {
+  color: #e274ac;
+  font-size: clamp(70px, 7vw, 125px);
+}
+
+.hero-photobooth {
+  color: #6275c0;
+  font-size: clamp(65px, 6.7vw, 120px);
+}
+
+.hero-tagline {
+  margin: 45px 0 0 45px;
+
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+
+  color: #45485e;
+}
+
+.hero-underline {
+  width: 255px;
+  height: 5px;
+
+  margin: 5px 0 0 105px;
+
+  background: #efa5c8;
+}
+
+.hero-description {
+  max-width: 650px;
+
+  margin: 12px 0 0 50px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.55;
+
+  color: #777;
+}
+
+.hero-open-button {
+  width: 380px;
+  height: 80px;
+
+  margin: 30px 0 0 68px;
+
+  border: none;
+  border-radius: 30px;
+
+  background: #f1a6c8;
+
+  color: #17171c;
+
+  font-family: "Dancing Script", cursive;
+  font-size: 24px;
+  font-weight: 700;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 4px 4px rgba(0, 0, 0, 0.25);
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.hero-open-button:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 8px 14px rgba(0, 0, 0, 0.16);
+}
+
+/* ================= PHOTOBOOTH SCENE ================= */
+
+.photobooth-scene {
+  position: relative;
+
+  width: 642px;
+  height: 742px;
+
+  max-width: 100%;
+
+  margin: 0 auto;
+}
+
+/* Camera shadow */
+
+.camera-shadow {
+  position: absolute;
+
+  width: 518px;
+  height: 160px;
+
+  left: 16px;
+  top: 492px;
+
+  border-radius: 50%;
+
+  background:
+    linear-gradient(
+      to right,
+      rgba(49, 44, 105, 0.45),
+      rgba(130, 130, 160, 0.35)
+    );
+
+  filter: blur(30px);
+
+  opacity: 0.5;
+}
+
+/* Camera */
+
+.hero-camera {
+  position: absolute;
+
+  width: 626px;
+  height: 526px;
+
+  left: 16px;
+  top: 112px;
+
+  object-fit: contain;
+
+  z-index: 3;
+}
+
+/* ================= FILM STRIP ================= */
+
+.film-strip {
+  position: absolute;
+
+  width: 112px;
+  height: 208px;
+
+  left: 70px;
+  top: 0;
+
+  transform: rotate(12deg);
+
+  background: #f1a8c9;
+
+  border: 2px solid #e274ac;
+
+  box-shadow:
+    0 4px 4px rgba(0, 0, 0, 0.25);
+
+  z-index: 4;
+}
+
+.film-frame {
+  position: absolute;
+
+  width: 80px;
+  height: 48px;
+
+  left: 13px;
+
+  background: #bfc7d8;
+}
+
+.frame-one {
+  top: 38px;
+}
+
+.frame-two {
+  top: 89px;
+
+  background: #cbd2df;
+}
+
+.frame-three {
+  top: 141px;
+
+  background: #f3c5d9;
+}
+
+.film-holes {
+  position: absolute;
+
+  display: flex;
+
+  gap: 7px;
+}
+
+.film-holes span {
+  width: 12px;
+  height: 8px;
+
+  background: #fff8f5;
+}
+
+.film-holes.top {
+  top: 18px;
+  left: 9px;
+}
+
+.film-holes.bottom {
+  top: 196px;
+  left: 5px;
+}
+
+/* ================= STICKY NOTES ================= */
+
+.sticky-note {
+  position: absolute;
+
+  background: #fff5e9;
+
+  border: 1px solid #d9d1c8;
+
+  box-shadow:
+    0 4px 4px rgba(0, 0, 0, 0.25);
+
+  z-index: 5;
+}
+
+.sticky-note p,
+.sticky-note-left {
+  font-family: "Caveat", cursive;
+
+  color: #41445f;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+}
+
+.sticky-note-right {
+  width: 128px;
+  height: 144px;
+
+  left: 456px;
+  top: 189px;
+
+  transform: rotate(-5deg);
+
+  padding: 15px 18px;
+}
+
+.sticky-note-right p {
+  margin: 0;
+
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.sticky-note-left {
+  position: absolute;
+
+  left: 13px;
+  top: 291px;
+
+  transform: rotate(8deg);
+
+  font-size: 20px;
+  line-height: 1.2;
+
+  z-index: 6;
+}
+
+.sticky-note-bottom {
+  width: 176px;
+  height: 80px;
+
+  left: 333px;
+  top: 655px;
+
+  transform: rotate(4deg);
+
+  padding: 15px 35px;
+}
+
+.sticky-note-bottom p {
+  margin: 0;
+
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.sticky-tape {
+  position: absolute;
+
+  width: 55px;
+  height: 18px;
+
+  top: -9px;
+  left: 50%;
+
+  transform: translateX(-50%) rotate(-5deg);
+
+  background: #eba4c8;
+}
+
+/* ================= FEATURES ================= */
+
+.landing-features {
+  width: 672px;
+  max-width: 100%;
+
+  margin: 20px auto 80px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  text-align: center;
+}
+
+.feature-item {
+  width: 190px;
+}
+
+.feature-icon {
+  width: 55px;
+  height: 55px;
+
+  margin: 0 auto 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #41445f;
+
+  color: #7180b5;
+
+  font-family: "Caveat", cursive;
+  font-size: 24px;
+
+  box-shadow:
+    0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.feature-item h3 {
+  margin: 0;
+
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 20px;
+
+  color: #41445f;
+}
+
+.feature-item p {
+  margin: 10px 0 0;
+
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 1.7;
+
+  color: #777;
+}
+
+.feature-divider {
+  width: 1px;
+  height: 75px;
+
+  background: #777;
+
+  margin-top: 20px;
+}
+
+/* ================= FOOTER ================= */
+
+.tiny-note {
+  position: relative;
+
+  width: fit-content;
+
+  margin: 0 auto 25px;
+
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+
+  color: #6275c0;
+}
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 1050px) {
+
+  .hero-section {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-copy {
+    text-align: center;
+  }
+
+  .hero-eyebrow {
+    margin-left: 0;
+  }
+
+  .hero-title {
+    padding-left: 0;
+  }
+
+  .hero-tagline,
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-underline {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-open-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .photobooth-scene {
+    transform: scale(0.8);
+    transform-origin: top center;
+
+    margin-bottom: -130px;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .site-navbar {
+    width: calc(100% - 30px);
+    padding: 0 15px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .site-logo strong {
+    font-size: 17px;
+  }
+
+  .nav-booth-button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+
+  .hero-internet {
+    font-size: 65px;
+  }
+
+  .hero-photobooth {
+    font-size: 55px;
+  }
+
+  .hero-description {
+    font-size: 15px;
+    padding: 0 15px;
+  }
+
+  .hero-open-button {
+    width: 300px;
+  }
+
+  .photobooth-scene {
+    transform: scale(0.55);
+    transform-origin: top center;
+
+    margin-bottom: -320px;
+  }
+
+  .landing-features {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .feature-divider {
+    display: none;
+  }
+}
+/* =========================================================
+   RESET OLD LANDING LAYOUT
+   ========================================================= */
+
+.landing.screen {
+  display: block !important;
+  position: relative !important;
+
+  width: 100% !important;
+  min-height: 100vh !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+
+  grid-template-columns: none !important;
+  grid-template-rows: none !important;
+}/* =========================================================
+   FIGMA TYPOGRAPHY TUNING
+   ========================================================= */
+
+.hero-eyebrow {
+  font-family: "Space Grotesk", sans-serif !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.8px !important;
+
+  color: #6275c0 !important;
+}
+
+.hero-internet {
+  font-family: "Baloo 2", sans-serif !important;
+  font-size: clamp(78px, 6.2vw, 112px) !important;
+  font-weight: 500 !important;
+  line-height: 0.82 !important;
+  letter-spacing: -3px !important;
+}
+
+.hero-photobooth {
+  font-family: "Baloo 2", sans-serif !important;
+  font-size: clamp(72px, 5.9vw, 108px) !important;
+  font-weight: 600 !important;
+  line-height: 0.86 !important;
+  letter-spacing: -3px !important;
+}
+
+.hero-tagline {
+  font-family: "Caveat", cursive !important;
+  font-size: 27px !important;
+  font-weight: 500 !important;
+  line-height: 1.1 !important;
+}
+
+.hero-description {
+  font-family: "Inter", sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.45 !important;
+}
+
+.hero-open-button {
+  font-family: "Dancing Script", cursive !important;
+  font-size: 21px !important;
+  font-weight: 700 !important;
+}
+
+.site-logo span {
+  font-family: "Caveat", cursive !important;
+}
+
+.site-logo strong {
+  font-family: "Baloo 2", sans-serif !important;
+}
+
+.nav-links {
+  font-family: "Inter", sans-serif !important;
+}
+
+.nav-booth-button {
+  font-family: "Dancing Script", cursive !important;
+}
+/* =========================================================
+   FIGMA SCALE TUNING
+   ========================================================= */
+
+.site-navbar {
+  height: 70px !important;
+  margin-top: 20px !important;
+  border-radius: 17px !important;
+}
+
+.hero-section {
+  min-height: 650px !important;
+  align-items: center !important;
+}
+
+.hero-copy {
+  transform: translateY(-10px);
+}
+
+.photobooth-scene {
+  transform: translateY(-5px) scale(0.94);
+  transform-origin: center center;
+}
+
+.landing-features {
+  transform: translateY(-35px);
+}
+
+.tiny-note {
+  transform: translateY(-20px);
+}
+/* =========================================================
+   FIGMA DECORATIONS
+   ========================================================= */
+
+.landing {
+  position: relative;
+}
+
+.landing-decorations {
+  position: absolute;
+
+  width: min(1315.82px, 100%);
+  height: auto;
+
+  left: 50%;
+  top: 75px;
+
+  transform: translateX(-50%);
+
+  pointer-events: none;
+
+  z-index: 1;
+}
+
+/* Keep actual interface above decorations */
+
+.site-navbar,
+.landing-main,
+.tiny-note {
+  position: relative;
+  z-index: 2;
+}
+/* =========================================================
+   HERO GRID — FIGMA MATCH
+   ========================================================= */
+
+.hero-section {
+  width: 100%;
+  max-width: 1320px;
+  min-height: 650px;
+
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 48% 52%;
+
+  align-items: center;
+  gap: 0;
+
+  position: relative;
+}
+
+.hero-copy {
+  position: relative;
+  z-index: 5;
+
+  align-self: center;
+
+  padding-left: 35px;
+
+  transform: translateY(-15px);
+}
+
+.photobooth-scene {
+  position: relative;
+  z-index: 4;
+
+  width: 642px;
+  height: 742px;
+
+  max-width: none;
+
+  justify-self: center;
+  align-self: center;
+
+  transform: scale(0.88);
+  transform-origin: center center;
+}.photobooth-scene {
+  isolation: isolate;
+}
+
+.hero-camera {
+  z-index: 3;
+}
+
+.film-strip,
+.sticky-note-right,
+.sticky-note-left,
+.sticky-note-bottom,
+.camera-shadow {
+  pointer-events: none;
+}
+.hero-doodle {
+  position: absolute;
+  pointer-events: none;
+  z-index: 6;
+}
+
+.hero-doodle svg {
+  display: block;
+}
+
+.doodle-rays {
+  left: -5px;
+  top: 20px;
+  width: 75px;
+}
+
+.doodle-title-bow {
+  left: 415px;
+  top: 65px;
+  width: 90px;
+}.scene-doodle {
+  position: absolute;
+
+  pointer-events: none;
+
+  z-index: 8;
+
+  color: #6275C0;
+}
+
+.scene-heart {
+  left: -5px;
+  top: 30px;
+
+  font-size: 62px;
+}
+
+.scene-plane {
+  right: 45px;
+  top: 25px;
+
+  color: #E274AC;
+
+  font-size: 48px;
+
+  transform: rotate(-10deg);
+}
+
+.scene-sparkles {
+  right: 30px;
+  top: 105px;
+
+  font-size: 32px;
+
+  line-height: 1.2;
+}.bottom-doodle {
+  position: absolute;
+
+  color: #6275C0;
+
+  pointer-events: none;
+
+  z-index: 1;
+}
+
+.bottom-flower {
+  left: 12%;
+  top: 720px;
+
+  font-size: 70px;
+}
+
+.bottom-diamond {
+  right: 10%;
+  top: 730px;
+
+  font-size: 65px;
+}/* =========================================================
+   ✦ DREAMY GLASS + MOTION UPGRADE
+   ========================================================= */
+
+
+/* ---------------------------------------------------------
+   1. FLOATING AMBIENT LIGHT
+   --------------------------------------------------------- */
+
+.landing.screen {
+  position: relative;
+  isolation: isolate;
+}
+
+.landing.screen::after {
+  content: "";
+
+  position: fixed;
+  width: 520px;
+  height: 520px;
+
+  top: 90px;
+  right: -170px;
+
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      rgba(241, 166, 201, 0.22),
+      rgba(241, 166, 201, 0.04) 48%,
+      transparent 72%
+    );
+
+  filter: blur(20px);
+
+  pointer-events: none;
+
+  z-index: 0;
+
+  animation: ambientGlow 8s ease-in-out infinite alternate;
+}
+
+@keyframes ambientGlow {
+  from {
+    transform: translate(0, 0) scale(1);
+  }
+
+  to {
+    transform: translate(-35px, 25px) scale(1.12);
+  }
+}
+
+
+/* ---------------------------------------------------------
+   2. PAPER GRAIN / TEXTURE
+   --------------------------------------------------------- */
+
+.landing.screen::before {
+  background-image:
+    radial-gradient(
+      rgba(70, 73, 105, 0.075) 0.7px,
+      transparent 0.7px
+    ),
+    radial-gradient(
+      rgba(226, 116, 172, 0.035) 1px,
+      transparent 1px
+    );
+
+  background-size:
+    7px 7px,
+    13px 13px;
+
+  opacity: 0.22;
+
+  mix-blend-mode: multiply;
+}
+
+
+/* ---------------------------------------------------------
+   3. GLASS NAVBAR
+   --------------------------------------------------------- */
+
+.landing .site-navbar {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 240, 245, 0.78),
+      rgba(255, 225, 238, 0.52)
+    ) !important;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.7) !important;
+
+  box-shadow:
+    0 12px 35px rgba(69, 72, 102, 0.07),
+    inset 0 1px 0 rgba(255, 255, 255, 0.85) !important;
+
+  backdrop-filter:
+    blur(18px)
+    saturate(125%) !important;
+
+  -webkit-backdrop-filter:
+    blur(18px)
+    saturate(125%);
+}
+
+
+/* little glass shine */
+
+.landing .site-navbar::after {
+  content: "";
+
+  position: absolute;
+
+  left: 18px;
+  right: 18px;
+  top: 1px;
+
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255,255,255,0.95),
+      transparent
+    );
+
+  opacity: 0.8;
+}
+
+
+/* ---------------------------------------------------------
+   4. LOGO MICRO ANIMATION
+   --------------------------------------------------------- */
+
+.landing .site-logo {
+  animation:
+    logoFloat 4s ease-in-out infinite;
+}
+
+@keyframes logoFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-2px);
+  }
+}
+
+
+/* ---------------------------------------------------------
+   5. CTA GLASS BUTTON
+   --------------------------------------------------------- */
+
+.landing .nav-booth-button,
+.landing .hero-open-button {
+  position: relative;
+
+  overflow: hidden;
+
+  border:
+    1px solid rgba(255,255,255,0.65) !important;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(242, 169, 204, 0.94),
+      rgba(229, 145, 187, 0.82)
+    ) !important;
+
+  backdrop-filter:
+    blur(10px)
+    saturate(120%);
+
+  -webkit-backdrop-filter:
+    blur(10px)
+    saturate(120%);
+}
+
+
+/* moving glass reflection */
+
+.landing .nav-booth-button::before,
+.landing .hero-open-button::before {
+
+  content: "";
+
+  position: absolute;
+
+  top: -70%;
+  left: -70%;
+
+  width: 45%;
+  height: 240%;
+
+  transform: rotate(25deg);
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(255,255,255,0.42),
+      transparent
+    );
+
+  animation:
+    buttonShine 5s ease-in-out infinite;
+}
+
+@keyframes buttonShine {
+
+  0% {
+    left: -70%;
+  }
+
+  35%,
+  100% {
+    left: 140%;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   6. HERO ENTRANCE ANIMATION
+   --------------------------------------------------------- */
+
+.landing .hero-copy {
+  animation:
+    heroCopyIn 0.9s cubic-bezier(.22,.8,.25,1) both;
+}
+
+@keyframes heroCopyIn {
+
+  from {
+    opacity: 0;
+    transform:
+      translate(-25px, 15px);
+  }
+
+  to {
+    opacity: 1;
+    transform:
+      translate(0, -10px);
+  }
+}
+
+
+.landing .photobooth-scene {
+
+  animation:
+    sceneEntrance 1.1s cubic-bezier(.22,.8,.25,1) both;
+
+  animation-delay: 0.12s;
+}
+
+@keyframes sceneEntrance {
+
+  from {
+    opacity: 0;
+
+    transform:
+      translate(45px, 20px)
+      scale(0.88)
+      rotate(2deg);
+  }
+
+  to {
+    opacity: 1;
+
+    transform:
+      translate(15px, -8px)
+      scale(0.95)
+      rotate(0);
+  }
+}
+
+
+/* ---------------------------------------------------------
+   7. CAMERA FLOAT
+   --------------------------------------------------------- */
+
+.landing .hero-camera {
+
+  animation:
+    cameraFloat 5s ease-in-out infinite;
+}
+
+@keyframes cameraFloat {
+
+  0%,
+  100% {
+    transform:
+      translateY(0)
+      rotate(0deg);
+  }
+
+  50% {
+    transform:
+      translateY(-9px)
+      rotate(-0.6deg);
+  }
+}
+
+
+/* preserve hover */
+
+.landing .photobooth-scene:hover .hero-camera {
+
+  animation-play-state: paused;
+
+  transform:
+    translateY(-13px)
+    rotate(-1deg) !important;
+}
+
+
+/* ---------------------------------------------------------
+   8. FILM STRIP FLOAT
+   --------------------------------------------------------- */
+
+.landing .film-strip {
+
+  animation:
+    filmFloat 4.5s ease-in-out infinite;
+
+  animation-delay: 0.6s;
+}
+
+@keyframes filmFloat {
+
+  0%,
+  100% {
+    transform:
+      rotate(11deg)
+      translateY(0);
+  }
+
+  50% {
+    transform:
+      rotate(8deg)
+      translateY(-9px);
+  }
+}
+
+
+/* ---------------------------------------------------------
+   9. STICKY NOTE GLASS / PAPER
+   --------------------------------------------------------- */
+
+.landing .sticky-note {
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255, 249, 239, 0.82),
+      rgba(255, 239, 222, 0.65)
+    ) !important;
+
+  border:
+    1px solid rgba(255,255,255,0.78) !important;
+
+  backdrop-filter:
+    blur(8px)
+    saturate(115%);
+
+  -webkit-backdrop-filter:
+    blur(8px)
+    saturate(115%);
+
+  box-shadow:
+    0 12px 25px rgba(69,72,102,0.11),
+    inset 0 1px 0 rgba(255,255,255,0.9) !important;
+}
+
+
+/* right note breathing */
+
+.landing .sticky-note-right {
+
+  animation:
+    noteRightFloat 5s ease-in-out infinite;
+}
+
+@keyframes noteRightFloat {
+
+  0%,
+  100% {
+    transform:
+      rotate(-5deg)
+      translateY(0);
+  }
+
+  50% {
+    transform:
+      rotate(-3deg)
+      translateY(-7px);
+  }
+}
+
+
+/* bottom note */
+
+.landing .sticky-note-bottom {
+
+  animation:
+    noteBottomFloat 4.2s ease-in-out infinite;
+
+  animation-delay: 0.8s;
+}
+
+@keyframes noteBottomFloat {
+
+  0%,
+  100% {
+    transform:
+      rotate(3deg)
+      translateY(0);
+  }
+
+  50% {
+    transform:
+      rotate(1deg)
+      translateY(-6px);
+  }
+}
+
+
+/* ---------------------------------------------------------
+   10. DOODLE ANIMATIONS
+   --------------------------------------------------------- */
+
+.landing .doodle-rays {
+
+  animation:
+    doodleWiggle 5s ease-in-out infinite;
+}
+
+@keyframes doodleWiggle {
+
+  0%,
+  100% {
+    transform:
+      rotate(-4deg)
+      translateY(0);
+  }
+
+  50% {
+    transform:
+      rotate(-1deg)
+      translateY(-5px);
+  }
+}
+
+
+.landing .doodle-title-bow {
+
+  animation:
+    bowFloat 4s ease-in-out infinite;
+
+  animation-delay: 0.5s;
+}
+
+@keyframes bowFloat {
+
+  0%,
+  100% {
+    transform:
+      translateY(0)
+      rotate(0);
+  }
+
+  50% {
+    transform:
+      translateY(-6px)
+      rotate(2deg);
+  }
+}
+
+
+/* ---------------------------------------------------------
+   11. SCENE DOODLES — FLOATING
+   --------------------------------------------------------- */
+
+.landing .scene-heart {
+
+  animation:
+    heartFloat 4s ease-in-out infinite;
+}
+
+@keyframes heartFloat {
+
+  0%,
+  100% {
+    transform:
+      translateY(0)
+      rotate(-4deg);
+  }
+
+  50% {
+    transform:
+      translateY(-10px)
+      rotate(3deg);
+  }
+}
+
+
+.landing .scene-plane {
+
+  animation:
+    planeDrift 7s ease-in-out infinite;
+}
+
+@keyframes planeDrift {
+
+  0%,
+  100% {
+    transform:
+      translateX(0)
+      rotate(-10deg);
+  }
+
+  50% {
+    transform:
+      translateX(12px)
+      translateY(-7px)
+      rotate(-5deg);
+  }
+}
+
+
+.landing .scene-sparkles {
+
+  animation:
+    sparklePulse 2.8s ease-in-out infinite;
+}
+
+@keyframes sparklePulse {
+
+  0%,
+  100% {
+    opacity: 0.5;
+
+    transform:
+      scale(0.9)
+      rotate(0deg);
+  }
+
+  50% {
+    opacity: 1;
+
+    transform:
+      scale(1.05)
+      rotate(8deg);
+  }
+}
+
+
+/* ---------------------------------------------------------
+   12. FEATURES — GLASS PODS
+   --------------------------------------------------------- */
+
+.landing .feature-item {
+
+  position: relative;
+
+  padding:
+    22px 20px 20px;
+
+  border-radius: 22px;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.44),
+      rgba(255,231,240,0.20)
+    );
+
+  border:
+    1px solid rgba(255,255,255,0.72);
+
+  backdrop-filter:
+    blur(12px)
+    saturate(120%);
+
+  -webkit-backdrop-filter:
+    blur(12px)
+    saturate(120%);
+
+  box-shadow:
+    0 10px 25px rgba(69,72,102,0.045),
+    inset 0 1px 0 rgba(255,255,255,0.75);
+
+  transition:
+    transform 0.35s cubic-bezier(.2,.8,.2,1),
+    box-shadow 0.35s ease,
+    background 0.35s ease;
+}
+
+
+.landing .feature-item:hover {
+
+  transform:
+    translateY(-8px)
+    rotate(-1deg);
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,0.66),
+      rgba(255,224,237,0.32)
+    );
+
+  box-shadow:
+    0 18px 35px rgba(69,72,102,0.10),
+    inset 0 1px 0 rgba(255,255,255,0.9);
+}
+
+
+/* ---------------------------------------------------------
+   13. FEATURE ICON — SOFT GLASS
+   --------------------------------------------------------- */
+
+.landing .feature-icon {
+
+  background:
+    linear-gradient(
+      145deg,
+      #4b4e6b,
+      #353852
+    ) !important;
+
+  border:
+    1px solid rgba(255,255,255,0.12);
+
+  box-shadow:
+    0 8px 16px rgba(69,72,102,0.18),
+    inset 0 1px 0 rgba(255,255,255,0.18) !important;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.landing .feature-item:hover .feature-icon {
+
+  transform:
+    rotate(8deg)
+    scale(1.08);
+
+  box-shadow:
+    0 12px 22px rgba(69,72,102,0.23),
+    inset 0 1px 0 rgba(255,255,255,0.25) !important;
+}
+
+
+/* ---------------------------------------------------------
+   14. FEATURE DIVIDERS — GLASS
+   --------------------------------------------------------- */
+
+.landing .feature-divider {
+
+  background:
+    linear-gradient(
+      to bottom,
+      transparent,
+      rgba(98,117,192,0.28),
+      transparent
+    ) !important;
+}
+
+
+/* ---------------------------------------------------------
+   15. FLOATING DIAMOND + FLOWER
+   --------------------------------------------------------- */
+
+.landing .bottom-flower {
+
+  animation:
+    decorationFloat 5s ease-in-out infinite;
+}
+
+.landing .bottom-diamond {
+
+  animation:
+    decorationFloat 4s ease-in-out infinite;
+
+  animation-delay: 1s;
+}
+
+@keyframes decorationFloat {
+
+  0%,
+  100% {
+    transform:
+      translateY(0)
+      rotate(0deg);
+  }
+
+  50% {
+    transform:
+      translateY(-9px)
+      rotate(6deg);
+  }
+}
+
+
+/* ---------------------------------------------------------
+   16. LITTLE GLASS STATUS PILL
+   --------------------------------------------------------- */
+
+.landing .photobooth-scene::after {
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,0.72),
+      rgba(255,237,245,0.48)
+    ) !important;
+
+  border:
+    1px solid rgba(255,255,255,0.8) !important;
+
+  backdrop-filter:
+    blur(12px)
+    saturate(130%);
+
+  -webkit-backdrop-filter:
+    blur(12px)
+    saturate(130%);
+
+  box-shadow:
+    0 8px 18px rgba(69,72,102,0.08),
+    inset 0 1px 0 rgba(255,255,255,0.9);
+
+  animation:
+    statusPulse 3s ease-in-out infinite;
+}
+
+@keyframes statusPulse {
+
+  0%,
+  100% {
+    opacity: 0.78;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+
+/* ---------------------------------------------------------
+   17. GLASSY SECTION TRANSITION
+   --------------------------------------------------------- */
+
+.landing .landing-features::before {
+
+  content: "";
+
+  position: absolute;
+
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  margin-top: -45px;
+
+  width: 65%;
+
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      rgba(98,117,192,0.12),
+      rgba(226,116,172,0.18),
+      transparent
+    );
+}
+
+
+/* ---------------------------------------------------------
+   18. ACCESSIBILITY — REDUCE MOTION
+   --------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .landing *,
+  .landing *::before,
+  .landing *::after {
+
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+
+    transition-duration: 0.01ms !important;
+  }
+}/* =========================================
+   HANDWRITTEN HERO TYPOGRAPHY
+   ========================================= */
+
+.landing .hero-internet {
+  font-family: "Caveat", cursive !important;
+
+  font-size: clamp(
+    95px,
+    8vw,
+    135px
+  ) !important;
+
+  font-weight: 600 !important;
+
+  line-height: 0.72 !important;
+
+  letter-spacing: -2px !important;
+
+  color: #e274ac !important;
+
+  transform: rotate(-1deg);
+
+  text-shadow:
+    1px 2px 0 rgba(226,116,172,0.06);
+}
+
+
+.landing .hero-photobooth {
+  font-family: "Caveat", cursive !important;
+
+  font-size: clamp(
+    90px,
+    7.6vw,
+    128px
+  ) !important;
+
+  font-weight: 700 !important;
+
+  line-height: 0.78 !important;
+
+  letter-spacing: -3px !important;
+
+  color: #6275c0 !important;
+
+  transform: rotate(-1.5deg);
+
+  text-shadow:
+    1px 3px 0 rgba(98,117,192,0.06);
+}
+/* =========================================================
+   ✦ SCRAPBOOK HERO DECORATIONS
+   ========================================================= */
+
+.hero-section {
+  position: relative;
+  overflow: visible;
+}
+
+
+/* =========================================================
+   INTERNET PHOTOBOOTH — CAMERA UI
+   ========================================================= */
+
+.camera-stage {
+  position: relative;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  overflow: hidden;
+
+  padding:
+    38px
+    24px
+    28px;
+
+  background:
+    radial-gradient(
+      circle at 80% 15%,
+      rgba(242, 161, 198, 0.20),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 15% 80%,
+      rgba(98, 117, 192, 0.16),
+      transparent 32%
+    ),
+    #fffaf7;
+}
+
+
+/* =========================================================
+   BACKGROUND
+   ========================================================= */
+
+.camera-stage::before {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+
+  opacity: 0.35;
+
+  background-image:
+    radial-gradient(
+      rgba(98, 117, 192, 0.20) 1px,
+      transparent 1px
+    );
+
+  background-size: 28px 28px;
+
+  mask-image:
+    linear-gradient(
+      to bottom,
+      transparent,
+      black 25%,
+      black 75%,
+      transparent
+    );
+}
+
+.camera-bg-doodle {
+  position: absolute;
+
+  pointer-events: none;
+
+  z-index: 0;
+
+  color: #6275c0;
+
+  opacity: 0.55;
+
+  font-family: "Caveat", cursive;
+}
+
+.camera-bg-heart {
+  left: 6%;
+  top: 25%;
+
+  font-size: 48px;
+
+  transform: rotate(-12deg);
+}
+
+.camera-bg-star {
+  right: 7%;
+  top: 40%;
+
+  font-size: 28px;
+
+  color: #e274ac;
+}
+
+.camera-bg-flower {
+  left: 10%;
+  bottom: 20%;
+
+  font-size: 35px;
+}
+
+
+/* =========================================================
+   TOP BAR
+   ========================================================= */
+
+.booth-topbar {
+  position: relative;
+  z-index: 5;
+
+  width: min(840px, 92vw);
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+
+  align-items: center;
+
+  margin-bottom: 18px;
+}
+
+.recording-indicator {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  justify-self: start;
+
+  font-family:
+    "Space Mono",
+    monospace;
+
+  font-size: 12px;
+
+  letter-spacing: 0.18em;
+
+  color: #30324b;
+}
+
+.rec-dot {
+  width: 9px;
+  height: 9px;
+
+  border-radius: 50%;
+
+  background: #ff5264;
+
+  box-shadow:
+    0 0 0 4px
+    rgba(255, 82, 100, 0.10);
+
+  animation: recPulse 1.4s ease-in-out infinite;
+}
+
+@keyframes recPulse {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.4;
+    transform: scale(0.82);
+  }
+}
+
+.photo-counter {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+
+  color: #4a4d69;
+
+  font-family:
+    "Space Mono",
+    monospace;
+
+  font-size: 13px;
+
+  letter-spacing: 0.08em;
+}
+
+.photo-counter strong {
+  font-size: 15px;
+}
+
+.photo-counter small {
+  position: absolute;
+
+  top: 21px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  white-space: nowrap;
+
+  font-family:
+    "Caveat",
+    cursive;
+
+  font-size: 14px;
+
+  letter-spacing: 0;
+
+  color: #8b8da4;
+}
+
+.glass-icon-button {
+  justify-self: end;
+
+  width: 42px;
+  height: 42px;
+
+  display: grid;
+  place-items: center;
+
+  border: 1px solid
+    rgba(255,255,255,0.75);
+
+  border-radius: 13px;
+
+  color: #59607e;
+
+  background:
+    rgba(255,255,255,0.35);
+
+  backdrop-filter: blur(12px);
+
+  box-shadow:
+    inset 0 1px 0
+    rgba(255,255,255,0.7);
+
+  cursor: pointer;
+
+  transition:
+    transform .2s ease,
+    background .2s ease;
+}
+
+.glass-icon-button:hover {
+  transform: translateY(-2px);
+
+  background:
+    rgba(255,255,255,0.62);
+}
+
+
+/* =========================================================
+   CAMERA WRAPPER
+   ========================================================= */
+
+.camera-wrapper {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/* =========================================================
+   CAMERA FRAME
+   ========================================================= */
+
+.camera-frame {
+  position: relative;
+
+  width: min(840px, 88vw);
+  aspect-ratio: 1.55 / 1;
+
+  overflow: hidden;
+
+  border-radius: 28px;
+
+  background: #e9dfe2;
+
+  border: 1px solid
+    rgba(71, 62, 67, 0.55);
+
+  box-shadow:
+    0 30px 55px
+    rgba(63, 52, 58, 0.22),
+
+    0 8px 20px
+    rgba(98, 117, 192, 0.10),
+
+    inset 0 1px 0
+    rgba(255,255,255,0.8);
+}
+
+
+/* subtle glass border */
+
+.camera-frame::after {
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  border-radius: inherit;
+
+  pointer-events: none;
+
+  border: 1px solid
+    rgba(255,255,255,0.55);
+
+  box-shadow:
+    inset 0 0 40px
+    rgba(255,255,255,0.12);
+}
+
+
+/* =========================================================
+   VIDEO
+   ========================================================= */
+
+.camera-video {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  background: #eee5e7;
+}
+
+
+/* =========================================================
+   FILTER LAYER
+   ========================================================= */
+
+.view-filter {
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+
+  z-index: 2;
+
+  mix-blend-mode: normal;
+}
+
+
+/* =========================================================
+   CAMERA CORNERS
+   ========================================================= */
+
+.camera-corner {
+  position: absolute;
+
+  width: 34px;
+  height: 34px;
+
+  z-index: 5;
+
+  border-color:
+    rgba(255,255,255,0.85);
+
+  border-style: solid;
+}
+
+.corner-tl {
+  top: 24px;
+  left: 24px;
+
+  border-width:
+    2px 0 0 2px;
+}
+
+.corner-tr {
+  top: 24px;
+  right: 24px;
+
+  border-width:
+    2px 2px 0 0;
+}
+
+.corner-bl {
+  bottom: 24px;
+  left: 24px;
+
+  border-width:
+    0 0 2px 2px;
+}
+
+.corner-br {
+  right: 24px;
+  bottom: 24px;
+
+  border-width:
+    0 2px 2px 0;
+}
+
+
+/* =========================================================
+   CAMERA FOCUS
+   ========================================================= */
+
+.camera-focus {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+
+  width: 38px;
+  height: 38px;
+
+  transform:
+    translate(-50%, -50%);
+
+  border:
+    1px solid
+    rgba(255,255,255,0.35);
+
+  border-radius: 50%;
+
+  opacity: 0.35;
+
+  z-index: 4;
+
+  pointer-events: none;
+}
+
+.camera-focus span {
+  position: absolute;
+
+  width: 3px;
+  height: 3px;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  border-radius: 50%;
+
+  background: white;
+}
+
+
+/* =========================================================
+   COUNTDOWN
+   ========================================================= */
+
+.camera-countdown {
+  position: absolute;
+
+  inset: 0;
+
+  display: grid;
+  place-items: center;
+
+  z-index: 10;
+
+  color: white;
+
+  font-family:
+    "Caveat",
+    cursive;
+
+  font-size: 100px;
+
+  text-shadow:
+    0 4px 18px
+    rgba(0,0,0,0.25);
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   FLASH
+   ========================================================= */
+
+.camera-flash {
+  position: absolute;
+  inset: 0;
+
+  z-index: 20;
+
+  background: white;
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   CAMERA CONTROLS
+   ========================================================= */
+
+.camera-controls {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-top: 12px;
+}
+
+.zoom-control,
+.camera-control-button {
+  height: 38px;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 13px;
+
+  border:
+    1px solid
+    rgba(255,255,255,0.8);
+
+  background:
+    rgba(255,255,255,0.55);
+
+  backdrop-filter:
+    blur(12px);
+
+  box-shadow:
+    0 5px 18px
+    rgba(70,60,70,0.08),
+
+    inset 0 1px 0
+    rgba(255,255,255,0.8);
+
+  color: #464963;
+
+  font-size: 12px;
+}
+
+.zoom-control {
+  padding: 3px;
+}
+
+.zoom-control button {
+  width: 31px;
+  height: 30px;
+
+  display: grid;
+  place-items: center;
+
+  border: 0;
+
+  border-radius: 10px;
+
+  background: transparent;
+
+  color: inherit;
+
+  cursor: pointer;
+}
+
+.zoom-control button:hover {
+  background:
+    rgba(226,116,172,0.12);
+}
+
+.zoom-control button:disabled {
+  opacity: 0.3;
+
+  cursor: default;
+}
+
+.zoom-control span {
+  min-width: 42px;
+
+  text-align: center;
+
+  font-family:
+    "Space Mono",
+    monospace;
+}
+
+.camera-control-button {
+  padding:
+    0 13px;
+
+  gap: 7px;
+
+  cursor: pointer;
+}
+
+.camera-control-button:hover {
+  transform: translateY(-1px);
+}
+
+.camera-control-button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+
+/* =========================================================
+   PROMPT
+   ========================================================= */
+
+.camera-prompt {
+  margin:
+    15px 0 10px;
+
+  font-family:
+    "Caveat",
+    cursive;
+
+  font-size: 22px;
+
+  color: #77718a;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   SNAP
+   ========================================================= */
+
+.snap-button {
+  position: relative;
+
+  min-width: 165px;
+  height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  border: 0;
+
+  border-radius: 999px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #ee8fba,
+      #e76fa7
+    );
+
+  color: #211d2b;
+
+  font-family:
+    "Space Mono",
+    monospace;
+
+  font-weight: 700;
+
+  letter-spacing: 0.04em;
+
+  box-shadow:
+    0 9px 22px
+    rgba(224, 105, 161, 0.25),
+
+    inset 0 1px 0
+    rgba(255,255,255,0.65);
+
+  cursor: pointer;
+
+  transition:
+    box-shadow .2s ease;
+}
+
+.snap-button:hover:not(:disabled) {
+  box-shadow:
+    0 13px 28px
+    rgba(224, 105, 161, 0.32),
+
+    inset 0 1px 0
+    rgba(255,255,255,0.7);
+}
+
+.snap-button:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.snap-icon {
+  display: grid;
+  place-items: center;
+}
+
+.snap-arrow {
+  font-size: 20px;
+  margin-left: 3px;
+}
+
+
+/* =========================================================
+   FILTER SECTION
+   ========================================================= */
+
+.filter-section {
+  width: min(700px, 92vw);
+
+  margin-top: 22px;
+}
+
+.filter-header {
+  margin-bottom: 9px;
+
+  text-align: center;
+
+  font-family:
+    "Caveat",
+    cursive;
+
+  color: #77718a;
+
+  font-size: 17px;
+}
+
+.filter-carousel {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.filter-list {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  overflow-x: auto;
+
+  padding:
+    5px 3px 8px;
+
+  scrollbar-width: none;
+}
+
+.filter-list::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-option {
+  flex: 0 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 5px;
+
+  border: 0;
+
+  background: transparent;
+
+  color: #6b6b80;
+
+  font-family:
+    "Space Mono",
+    monospace;
+
+  font-size: 9px;
+
+  cursor: pointer;
+}
+
+.filter-preview {
+  width: 46px;
+  height: 46px;
+
+  border-radius: 50%;
+
+  border:
+    2px solid
+    rgba(255,255,255,0.8);
+
+  background:
+    linear-gradient(
+      135deg,
+      #d7b5b8,
+      #8e9ed4
+    );
+
+  box-shadow:
+    0 3px 10px
+    rgba(40,35,45,0.10);
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease;
+}
+
+.filter-option:hover .filter-preview {
+  transform: translateY(-3px);
+}
+
+.filter-option.active .filter-preview {
+  box-shadow:
+    0 0 0 3px #e274ac,
+    0 4px 14px
+    rgba(226,116,172,0.25);
+}
+
+.filter-option.active {
+  color: #454866;
+}
+
+.filter-arrow {
+  flex: 0 0 auto;
+
+  width: 30px;
+  height: 30px;
+
+  display: grid;
+  place-items: center;
+
+  border: 0;
+
+  border-radius: 50%;
+
+  background:
+    rgba(255,255,255,0.5);
+
+  color: #68709a;
+
+  cursor: pointer;
+}
+
+
+/* =========================================================
+   FILTER VISUALS
+   ========================================================= */
+
+.filter-soft {
+  filter: saturate(.85) brightness(1.05);
+}
+
+.filter-warm {
+  filter:
+    sepia(.15)
+    saturate(1.15);
+}
+
+.filter-cool {
+  filter:
+    hue-rotate(12deg)
+    saturate(.9);
+}
+
+.filter-film {
+  filter:
+    contrast(1.08)
+    saturate(.82);
+}
+
+.filter-bw {
+  filter: grayscale(1);
+}
+
+.filter-dream {
+  filter:
+    brightness(1.08)
+    saturate(.8)
+    contrast(.92);
+}
+
+
+/* =========================================================
+   PHOTO PROGRESS
+   ========================================================= */
+
+.photo-progress {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+  margin-top: 20px;
+}
+
+.progress-photo {
+  width: 26px;
+  height: 26px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  border:
+    1px solid
+    rgba(98,117,192,0.3);
+
+  color: #7880a2;
+
+  font-family:
+    "Space Mono",
+    monospace;
+
+  font-size: 9px;
+
+  background:
+    rgba(255,255,255,0.5);
+}
+
+.progress-photo.done {
+  color: white;
+
+  border-color: #6275c0;
+
+  background: #6275c0;
+}
+
+.progress-photo.current {
+  border-color: #e274ac;
+
+  color: #e274ac;
+
+  background:
+    rgba(226,116,172,0.08);
+}
+
+
+/* =========================================================
+   FOOTNOTE
+   ========================================================= */
+
+.booth-footnote {
+  margin-top: 12px;
+
+  font-family:
+    "Caveat",
+    cursive;
+
+  font-size: 15px;
+
+  color: #9a96a7;
+
+  opacity: 0.8;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+  .camera-stage {
+    padding:
+      24px 14px;
+  }
+
+  .camera-frame {
+    width: 94vw;
+
+    border-radius: 20px;
+  }
+
+  .booth-topbar {
+    width: 94vw;
+  }
+
+  .camera-countdown {
+    font-size: 76px;
+  }
+
+  .camera-bg-doodle {
+    opacity: 0.25;
+  }
+
+  .filter-list {
+    justify-content: flex-start;
+  }
+
+  .photo-counter small {
+    display: none;
+  }
+}
+/* =========================
+   CAMERA CONTROLS
+========================= */
+
+.camera-wrapper {
+  position: relative;
+  width: min(750px, 82vw);
+  margin: 0 auto;
+}
+
+.camera-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+
+  border-radius: 24px;
+
+  background: rgba(255, 255, 255, 0.22);
+
+  border: 1px solid rgba(80, 70, 90, 0.45);
+
+  box-shadow:
+    0 25px 60px rgba(50, 45, 70, 0.22),
+    0 5px 15px rgba(255, 255, 255, 0.5);
+
+  backdrop-filter: blur(8px);
+
+  isolation: isolate;
+}
+
+.camera-video {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+
+  transform-origin: center center;
+}
+
+/* =========================
+   CAMERA CORNERS
+========================= */
+
+.camera-corner {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+
+  border-color: rgba(255,255,255,.9);
+  z-index: 5;
+}
+
+.corner-tl {
+  top: 22px;
+  left: 22px;
+  border-top: 2px solid;
+  border-left: 2px solid;
+}
+
+.corner-tr {
+  top: 22px;
+  right: 22px;
+  border-top: 2px solid;
+  border-right: 2px solid;
+}
+
+.corner-bl {
+  bottom: 22px;
+  left: 22px;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+}
+
+.corner-br {
+  bottom: 22px;
+  right: 22px;
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+}
+
+/* =========================
+   CAMERA DECOR
+========================= */
+
+.camera-side-mark {
+  position: absolute;
+  z-index: 6;
+
+  font-size: 22px;
+
+  color: rgba(255,255,255,.8);
+
+  pointer-events: none;
+}
+
+.mark-left {
+  left: -58px;
+  top: 42%;
+}
+
+.mark-right {
+  right: -58px;
+  top: 48%;
+}
+
+/* =========================
+   COUNTDOWN
+========================= */
+
+.countdown {
+  position: absolute;
+
+  inset: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 20;
+
+  font-size: 100px;
+  font-weight: 700;
+
+  color: white;
+
+  text-shadow:
+    0 4px 20px rgba(0,0,0,.3);
+}
+
+.flash-text {
+  font-size: 42px;
+
+  letter-spacing: 4px;
+}
+
+/* =========================
+   FLASH
+========================= */
+
+.flash {
+  position: absolute;
+  inset: 0;
+
+  z-index: 30;
+
+  background: white;
+
+  pointer-events: none;
+}
+
+/* =========================
+   CONTROLS
+========================= */
+
+.camera-controls {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  margin-top: 12px;
+}
+
+.zoom-control,
+.flip-control {
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 12px;
+
+  background: rgba(255,255,255,.5);
+
+  border: 1px solid rgba(255,255,255,.8);
+
+  box-shadow:
+    0 5px 15px rgba(70,60,90,.08);
+
+  backdrop-filter: blur(14px);
+
+  color: #59617f;
+}
+
+.zoom-control {
+  overflow: hidden;
+}
+
+.zoom-control button {
+  width: 34px;
+  height: 34px;
+
+  border: 0;
+
+  background: transparent;
+
+  color: #59617f;
+
+  cursor: pointer;
+
+  display: grid;
+  place-items: center;
+}
+
+.zoom-control button:hover {
+  background: rgba(255,255,255,.6);
+}
+
+.zoom-control button:disabled {
+  opacity: .35;
+  cursor: default;
+}
+
+.zoom-control span {
+  min-width: 42px;
+
+  text-align: center;
+
+  font-size: 12px;
+}
+
+.flip-control {
+  padding: 0 13px;
+
+  gap: 6px;
+
+  cursor: pointer;
+
+  font-size: 12px;
+}
+
+.flip-control:hover {
+  background: rgba(255,255,255,.7);
+}
+
+/* =========================
+   SNAP BUTTON
+========================= */
+
+.snap-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  margin: 14px auto 0;
+
+  min-width: 145px;
+  height: 48px;
+
+  border: 0;
+
+  border-radius: 999px;
+
+  background: linear-gradient(
+    135deg,
+    #ef72ad,
+    #e967a4
+  );
+
+  color: #211b28;
+
+  font-weight: 700;
+
+  box-shadow:
+    0 10px 25px rgba(226, 104, 164, .3);
+
+  cursor: pointer;
+
+  transition:
+    box-shadow .2s ease,
+    filter .2s ease;
+}
+
+.snap-button:hover {
+  box-shadow:
+    0 13px 32px rgba(226, 104, 164, .4);
+
+  filter: brightness(1.04);
+}
+
+.snap-button:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+.snap-arrow {
+  font-size: 17px;
+}
+
+/* =========================
+   FILTER HEADING
+========================= */
+
+.filter-heading {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  margin-top: 25px;
+
+  font-size: 12px;
+
+  font-style: italic;
+
+  color: #747b9f;
+}
+
+.filter-heading span {
+  color: #df78aa;
+}
+
+/* =========================
+   FILTER CAROUSEL
+========================= */
+
+.filter-carousel {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 14px;
+
+  margin-top: 12px;
+}
+
+.filters-track {
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 18px;
+
+  overflow: hidden;
+}
+
+.filter-option {
+  flex: 0 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 6px;
+
+  border: 0;
+
+  background: transparent;
+
+  color: #656b86;
+
+  cursor: pointer;
+}
+
+.filter-preview {
+  width: 43px;
+  height: 43px;
+
+  border-radius: 50%;
+
+  background:
+    linear-gradient(
+      135deg,
+      #c4c8dc,
+      #999fc4
+    );
+
+  border: 3px solid rgba(255,255,255,.8);
+
+  box-shadow:
+    0 5px 12px rgba(60,60,80,.12);
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease;
+}
+
+.filter-option:hover .filter-preview {
+  transform: translateY(-3px);
+}
+
+.filter-option.active .filter-preview {
+  border-color: #ee72ae;
+
+  box-shadow:
+    0 0 0 3px rgba(238,114,174,.2),
+    0 7px 18px rgba(80,70,100,.18);
+}
+
+.filter-option small {
+  font-size: 9px;
+  white-space: nowrap;
+}
+
+.filter-arrow {
+  width: 26px;
+  height: 26px;
+
+  border: 0;
+
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+
+  background: rgba(255,255,255,.6);
+
+  color: #7880a2;
+
+  cursor: pointer;
+
+  flex-shrink: 0;
+}
+
+/* =========================
+   FILTER PREVIEWS
+========================= */
+
+.filter-soft {
+  filter: brightness(1.08) saturate(.8);
+}
+
+.filter-warm {
+  filter: sepia(.2) saturate(1.15);
+}
+
+.filter-cool {
+  filter: hue-rotate(15deg) saturate(.85);
+}
+
+.filter-film {
+  filter: contrast(1.1) saturate(.85);
+}
+
+.filter-bw {
+  filter: grayscale(1);
+}
+
+.filter-dream {
+  filter:
+    brightness(1.08)
+    saturate(.75)
+    blur(.2px);
+}
+
+/* =========================
+   PROGRESS
+========================= */
+
+.progress-dots {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 9px;
+
+  margin-top: 22px;
+}
+
+.progress-dots span {
+  width: 24px;
+  height: 24px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  border: 1px solid #ccd0e4;
+
+  color: #8990aa;
+
+  font-size: 10px;
+
+  background: rgba(255,255,255,.35);
+}
+
+.progress-dots span.current {
+  border-color: #eb72ad;
+  color: #eb72ad;
+
+  box-shadow:
+    0 0 0 3px rgba(235,114,173,.12);
+}
+
+.progress-dots span.done {
+  background: #eb72ad;
+
+  border-color: #eb72ad;
+
+  color: white;
+}
+
+/* =========================
+   LITTLE NOTE
+========================= */
+
+.camera-floating-note {
+  position: absolute;
+
+  left: -25px;
+  bottom: 25px;
+
+  font-family: cursive;
+
+  font-size: 13px;
+
+  color: #68709b;
+
+  transform: rotate(-6deg);
+}
+
+.camera-footer-note {
+  margin-top: 14px;
+
+  text-align: center;
+
+  font-size: 10px;
+
+  font-style: italic;
+
+  color: #999db7;
+}
+/* =========================
+   CAMERA CONTROLS
+========================= */
+
+.camera-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
+  position: relative;
+  z-index: 5;
+}
+
+.zoom-control {
+  display: flex;
+  align-items: center;
+  height: 36px;
+
+  border: 1px solid rgba(80, 80, 120, 0.12);
+  background: rgba(255, 255, 255, 0.42);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border-radius: 12px;
+  overflow: hidden;
+
+  box-shadow:
+    0 5px 18px rgba(90, 80, 130, 0.08),
+    inset 0 1px rgba(255, 255, 255, 0.8);
+}
+
+.zoom-control button {
+  width: 38px;
+  height: 36px;
+
+  border: none;
+  background: transparent;
+
+  color: #6572a8;
+  font-size: 18px;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.zoom-control button:hover:not(:disabled) {
+  background: rgba(230, 139, 185, 0.12);
+}
+
+.zoom-control button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.zoom-control span {
+  min-width: 48px;
+  text-align: center;
+
+  font-size: 12px;
+  color: #4d577f;
+  font-family: monospace;
+}
+
+.flip-button {
+  height: 36px;
+  padding: 0 15px;
+
+  border: 1px solid rgba(80, 80, 120, 0.12);
+  border-radius: 12px;
+
+  background: rgba(255, 255, 255, 0.42);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  color: #6572a8;
+  font-size: 12px;
+
+  cursor: pointer;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.flip-button:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.65);
+
+  box-shadow:
+    0 5px 16px rgba(90, 80, 130, 0.1);
+}
+
+.flip-button:active {
+  transform: scale(0.96);
+}
+/* =========================================
+   MAIN CAMERA BOOTH LAYOUT
+========================================= */
+
+.booth-camera-layout {
+  width: min(1180px, 94vw);
+  margin: 0 auto;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: 26px;
+}
+
+
+/* =========================================
+   CAMERA COLUMN
+========================================= */
+
+.camera-column {
+  width: min(780px, 72vw);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================================
+   CAMERA FRAME — IMPORTANT
+========================================= */
+
+.camera-frame {
+  position: relative;
+
+  width: 100%;
+  aspect-ratio: 16 / 9;
+
+  min-height: 400px;
+
+  overflow: hidden;
+
+  border-radius: 24px;
+
+  background: #eeeaf0;
+
+  border: 1px solid rgba(70, 70, 90, 0.35);
+
+  box-shadow:
+    0 25px 55px rgba(65, 65, 100, 0.20),
+    0 8px 20px rgba(65, 65, 100, 0.08);
+
+  isolation: isolate;
+}
+
+
+/* =========================================
+   ACTUAL CAMERA VIDEO
+========================================= */
+
+.camera-video {
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  background: #e9e4e9;
+
+  border-radius: inherit;
+
+  z-index: 1;
+}
+
+
+/* FILTER MUST SIT ABOVE VIDEO */
+
+.view-filter {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 2;
+
+  pointer-events: none;
+
+  border-radius: inherit;
+}
+
+
+/* =========================================
+   CAMERA CORNERS
+========================================= */
+
+.camera-corner {
+  position: absolute;
+
+  width: 34px;
+  height: 34px;
+
+  z-index: 6;
+
+  pointer-events: none;
+}
+
+.corner-tl {
+  top: 22px;
+  left: 22px;
+
+  border-top: 2px solid rgba(50, 55, 80, 0.75);
+  border-left: 2px solid rgba(50, 55, 80, 0.75);
+}
+
+.corner-tr {
+  top: 22px;
+  right: 22px;
+
+  border-top: 2px solid rgba(50, 55, 80, 0.75);
+  border-right: 2px solid rgba(50, 55, 80, 0.75);
+}
+
+.corner-bl {
+  bottom: 22px;
+  left: 22px;
+
+  border-bottom: 2px solid rgba(50, 55, 80, 0.75);
+  border-left: 2px solid rgba(50, 55, 80, 0.75);
+}
+
+.corner-br {
+  bottom: 22px;
+  right: 22px;
+
+  border-bottom: 2px solid rgba(50, 55, 80, 0.75);
+  border-right: 2px solid rgba(50, 55, 80, 0.75);
+}
+
+
+/* =========================================
+   PHOTO PREVIEW RAIL
+========================================= */
+
+.photo-preview-rail {
+  width: 90px;
+
+  padding-top: 80px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 14px;
+}
+
+.preview-label {
+  font-family: "Caveat", cursive;
+  font-size: 14px;
+
+  color: #6275b8;
+
+  transform: rotate(-3deg);
+}
+
+.preview-slots {
+  display: flex;
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+.preview-slot {
+  position: relative;
+
+  width: 72px;
+  height: 58px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: visible;
+
+  border-radius: 13px;
+
+  background: rgba(255, 255, 255, 0.42);
+
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+
+  border: 1px solid rgba(255, 255, 255, 0.75);
+
+  box-shadow:
+    0 8px 24px rgba(85, 92, 145, 0.08);
+
+  color: #a4acd0;
+
+  font-size: 11px;
+}
+
+.preview-slot img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  border-radius: 12px;
+}
+
+.preview-slot small {
+  position: absolute;
+
+  bottom: -7px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  padding: 2px 6px;
+
+  border-radius: 10px;
+
+  background: rgba(255, 255, 255, 0.8);
+
+  backdrop-filter: blur(8px);
+
+  color: #6974a2;
+
+  font-size: 8px;
+}
+
+.preview-current {
+  border-color: rgba(230, 105, 164, 0.65);
+
+  box-shadow:
+    0 0 0 2px rgba(230, 105, 164, 0.12),
+    0 10px 25px rgba(230, 105, 164, 0.12);
+}
+
+
+/* =========================================
+   CAMERA CONTROL BAR
+========================================= */
+
+.camera-controls {
+  display: flex;
+  align-items: center;
+
+  gap: 4px;
+
+  margin-top: 12px;
+
+  padding: 5px;
+
+  border-radius: 15px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,0.65),
+      rgba(255,255,255,0.30)
+    );
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border: 1px solid rgba(255,255,255,0.75);
+
+  box-shadow:
+    0 10px 30px rgba(65,73,120,0.08);
+}
+
+
+/* =========================================
+   GRID
+========================================= */
+
+.camera-grid {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 5;
+
+  pointer-events: none;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.camera-grid span {
+  border-right: 1px solid rgba(255,255,255,0.35);
+  border-bottom: 1px solid rgba(255,255,255,0.35);
+}
+
+.camera-grid span:nth-child(3n) {
+  border-right: none;
+}
+
+.camera-grid span:nth-child(n+7) {
+  border-bottom: none;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 850px) {
+
+  .booth-camera-layout {
+    width: 95vw;
+    gap: 12px;
+  }
+
+  .camera-column {
+    width: calc(100vw - 130px);
+  }
+
+  .camera-frame {
+    min-height: 300px;
+  }
+
+  .photo-preview-rail {
+    width: 65px;
+    padding-top: 50px;
+  }
+
+  .preview-slot {
+    width: 55px;
+    height: 44px;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .booth-camera-layout {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .camera-column {
+    width: 94vw;
+  }
+
+  .photo-preview-rail {
+    order: 2;
+
+    width: auto;
+    padding-top: 10px;
+  }
+
+  .preview-slots {
+    flex-direction: row;
+  }
+
+  .camera-column {
+    order: 1;
+  }
+}
+/* =====================================================
+   CAMERA BOOTH — FINAL VISUAL SYSTEM
+   ===================================================== */
+
+.camera-stage {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background:
+    radial-gradient(
+      circle at 18% 22%,
+      rgba(255, 224, 239, 0.65),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 84% 18%,
+      rgba(229, 218, 255, 0.65),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      rgba(216, 222, 255, 0.65),
+      transparent 38%
+    ),
+    linear-gradient(
+      135deg,
+      #fffaf8 0%,
+      #fff4f7 42%,
+      #f8f3ff 72%,
+      #eef1ff 100%
+    );
+
+  color: #343957;
+}
+
+
+/* subtle paper texture */
+
+.camera-stage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+
+  opacity: 0.22;
+
+  background-image:
+    radial-gradient(
+      rgba(82, 91, 140, 0.22) 0.7px,
+      transparent 0.7px
+    );
+
+  background-size: 22px 22px;
+
+  mask-image: linear-gradient(
+    to bottom,
+    black,
+    transparent 90%
+  );
+}
+
+
+/* =====================================================
+   TOP BAR
+   ===================================================== */
+
+.camera-topbar {
+  width: min(760px, 92vw);
+
+  height: 72px;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+
+  position: relative;
+  z-index: 5;
+}
+
+
+.rec-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  color: #424a70;
+}
+
+
+.rec-dot {
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: #ff4962;
+
+  box-shadow:
+    0 0 0 5px rgba(255, 73, 98, 0.09),
+    0 0 14px rgba(255, 73, 98, 0.5);
+
+  animation: recPulse 1.5s infinite;
+}
+
+
+@keyframes recPulse {
+  0%, 100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.45;
+  }
+}
+
+
+.shot-counter {
+  position: relative;
+
+  display: flex;
+  gap: 7px;
+
+  font-size: 14px;
+  letter-spacing: 0.14em;
+}
+
+
+.shot-counter small {
+  position: absolute;
+
+  top: -18px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: max-content;
+
+  font-family: "Comic Sans MS", cursive;
+  font-size: 9px;
+  font-weight: 400;
+
+  color: #8188ae;
+  letter-spacing: 0.03em;
+}
+
+
+.glass-icon-button {
+  justify-self: end;
+
+  width: 42px;
+  height: 42px;
+
+  border-radius: 13px;
+
+  border: 1px solid rgba(255, 255, 255, 0.75);
+
+  background: rgba(255, 255, 255, 0.32);
+
+  backdrop-filter: blur(16px);
+
+  color: #60698f;
+
+  display: grid;
+  place-items: center;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 8px 24px rgba(88, 86, 130, 0.08),
+    inset 0 1px 0 rgba(255,255,255,.8);
+
+  transition: 0.25s ease;
+}
+
+
+.glass-icon-button:hover {
+  transform: translateY(-2px);
+
+  background: rgba(255,255,255,.58);
+
+  box-shadow:
+    0 12px 30px rgba(88,86,130,.12);
+}
+
+
+/* =====================================================
+   MAIN LAYOUT
+   ===================================================== */
+
+.booth-layout {
+  width: min(900px, 94vw);
+
+  display: grid;
+
+  grid-template-columns: 92px minmax(0, 760px);
+
+  gap: 24px;
+
+  align-items: start;
+
+  position: relative;
+  z-index: 2;
+}
+
+
+/* =====================================================
+   MEMORY RAIL
+   ===================================================== */
+
+.memory-rail {
+  padding-top: 95px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 12px;
+}
+
+
+.memory-label {
+  margin-bottom: 2px;
+
+  font-family: "Comic Sans MS", cursive;
+
+  font-size: 10px;
+
+  color: #747ca2;
+
+  transform: rotate(-3deg);
+}
+
+
+.memory-slot {
+  width: 68px;
+  height: 58px;
+
+  border-radius: 15px;
+
+  display: grid;
+  place-items: center;
+
+  position: relative;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(255,255,255,.68),
+      rgba(255,255,255,.25)
+    );
+
+  border: 1px solid rgba(255,255,255,.78);
+
+  backdrop-filter: blur(15px);
+
+  box-shadow:
+    0 10px 28px rgba(90, 89, 130, 0.07),
+    inset 0 1px 0 rgba(255,255,255,.8);
+
+  color: #9ca4c5;
+
+  transition: .3s ease;
+}
+
+
+.memory-slot.active {
+  border-color: rgba(240, 107, 166, .7);
+
+  box-shadow:
+    0 0 0 2px rgba(240,107,166,.12),
+    0 12px 30px rgba(240,107,166,.14);
+}
+
+
+.memory-slot.taken {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(240, 153, 195, .25),
+      rgba(164, 175, 229, .3)
+    );
+}
+
+
+.memory-number {
+  font-size: 11px;
+  color: #68729d;
+}
+
+
+.memory-placeholder {
+  font-size: 11px;
+  opacity: .65;
+}
+
+
+/* =====================================================
+   CAMERA COLUMN
+   ===================================================== */
+
+.camera-column {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+
+/* =====================================================
+   CAMERA FRAME
+   ===================================================== */
+
+.camera-frame {
+  width: 100%;
+
+  aspect-ratio: 16 / 9;
+
+  position: relative;
+
+  overflow: hidden;
+
+  border-radius: 25px;
+
+  border: 1px solid rgba(70, 75, 110, .38);
+
+  background: #ddd8dc;
+
+  box-shadow:
+    0 30px 60px rgba(66, 67, 103, .18),
+    0 8px 25px rgba(66, 67, 103, .10),
+    inset 0 1px 0 rgba(255,255,255,.8);
+}
+
+
+.camera-video {
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  z-index: 1;
+
+  background: #ded9dd;
+}
+
+
+.view-filter {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 2;
+
+  pointer-events: none;
+}
+
+
+/* =====================================================
+   CAMERA CORNERS
+   ===================================================== */
+
+.camera-corner {
+  position: absolute;
+
+  width: 30px;
+  height: 30px;
+
+  z-index: 5;
+
+  border-color: rgba(48, 55, 88, .78);
+
+  pointer-events: none;
+}
+
+
+.corner-tl {
+  top: 22px;
+  left: 22px;
+
+  border-top: 2px solid;
+  border-left: 2px solid;
+}
+
+
+.corner-tr {
+  top: 22px;
+  right: 22px;
+
+  border-top: 2px solid;
+  border-right: 2px solid;
+}
+
+
+.corner-bl {
+  bottom: 22px;
+  left: 22px;
+
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+}
+
+
+.corner-br {
+  bottom: 22px;
+  right: 22px;
+
+  border-bottom: 2px solid;
+  border-right: 2px solid;
+}
+
+
+/* =====================================================
+   COUNTDOWN
+   ===================================================== */
+
+.countdown {
+  position: absolute;
+
+  inset: 0;
+
+  display: grid;
+  place-items: center;
+
+  z-index: 10;
+
+  font-size: clamp(70px, 10vw, 130px);
+
+  font-weight: 700;
+
+  color: white;
+
+  text-shadow:
+    0 5px 30px rgba(30,30,50,.4);
+}
+
+
+/* =====================================================
+   FLASH
+   ===================================================== */
+
+.flash {
+  position: absolute;
+  inset: 0;
+
+  z-index: 20;
+
+  background: white;
+
+  pointer-events: none;
+}
+
+
+/* =====================================================
+   CAMERA CONTROLS
+   ===================================================== */
+
+.camera-controls {
+  margin-top: 12px;
+
+  display: flex;
+  align-items: center;
+
+  padding: 5px 7px;
+
+  border-radius: 14px;
+
+  border: 1px solid rgba(255,255,255,.75);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,.58),
+      rgba(255,255,255,.25)
+    );
+
+  backdrop-filter: blur(18px);
+
+  box-shadow:
+    0 12px 30px rgba(72,72,110,.09),
+    inset 0 1px 0 rgba(255,255,255,.85);
+}
+
+
+.control-pill {
+  height: 31px;
+
+  padding: 0 11px;
+
+  border: 0;
+
+  border-radius: 9px;
+
+  background: transparent;
+
+  color: #687096;
+
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+
+  font-size: 11px;
+
+  cursor: pointer;
+
+  transition: .2s ease;
+}
+
+
+.control-pill:hover {
+  background: rgba(255,255,255,.55);
+
+  color: #4e577e;
+}
+
+
+.zoom-value {
+  min-width: 38px;
+
+  text-align: center;
+
+  font-size: 11px;
+
+  color: #60698e;
+}
+
+
+.control-separator {
+  width: 1px;
+  height: 19px;
+
+  background: rgba(90,95,130,.15);
+}
+
+
+/* =====================================================
+   PROMPT
+   ===================================================== */
+
+.camera-prompt {
+  margin: 15px 0 12px;
+
+  font-family: Georgia, serif;
+
+  font-style: italic;
+
+  font-size: 17px;
+
+  color: #a89a88;
+
+  text-align: center;
+}
+
+
+/* =====================================================
+   SNAP BUTTON
+   ===================================================== */
+
+.snap-button {
+  min-width: 145px;
+  height: 48px;
+
+  padding: 0 22px;
+
+  border: none;
+
+  border-radius: 999px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  font-size: 13px;
+  font-weight: 700;
+
+  letter-spacing: .04em;
+
+  color: #2e2940;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f3a3ca 0%,
+      #ed70a9 48%,
+      #df72bd 100%
+    );
+
+  box-shadow:
+    0 12px 25px rgba(224, 99, 161, .28),
+    inset 0 1px 0 rgba(255,255,255,.65);
+
+  cursor: pointer;
+
+  transition: .25s ease;
+}
+
+
+.snap-button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 16px 32px rgba(224,99,161,.35),
+    inset 0 1px 0 rgba(255,255,255,.7);
+}
+
+
+.snap-button:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+
+.snap-button span {
+  font-size: 16px;
+}
+
+
+/* =====================================================
+   FILTER AREA
+   ===================================================== */
+
+.filter-heading {
+  margin-top: 18px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+
+  font-family: "Comic Sans MS", cursive;
+
+  font-size: 11px;
+
+  color: #7b7595;
+}
+
+
+.filter-heading span {
+  color: #ed72ac;
+}
+
+
+.filter-dots {
+  display: flex;
+
+  align-items: center;
+
+  gap: 13px;
+
+  margin-top: 12px;
+}
+
+
+.filter-dot {
+  width: 24px;
+  height: 24px;
+
+  border-radius: 50%;
+
+  border: 1px solid rgba(255,255,255,.9);
+
+  background:
+    linear-gradient(
+      135deg,
+      #d5d9ef,
+      #a9afd1
+    );
+
+  box-shadow:
+    0 5px 12px rgba(90,90,130,.13);
+
+  cursor: pointer;
+
+  transition: .25s ease;
+}
+
+
+.filter-dot:nth-child(2) {
+  background: linear-gradient(135deg,#f2e0df,#d4bfc5);
+}
+
+
+.filter-dot:nth-child(3) {
+  background: linear-gradient(135deg,#e8d5c1,#c7a98c);
+}
+
+
+.filter-dot:nth-child(4) {
+  background: linear-gradient(135deg,#d9e0ee,#9da8d1);
+}
+
+
+.filter-dot:nth-child(5) {
+  background: linear-gradient(135deg,#e8e5dc,#c3c2c4);
+}
+
+
+.filter-dot:nth-child(6) {
+  background: linear-gradient(135deg,#b8bab9,#777b7a);
+}
+
+
+.filter-dot:nth-child(7) {
+  background: linear-gradient(135deg,#e2e5f3,#9da9d4);
+}
+
+
+.filter-dot.active {
+  outline: 2px solid #ee76af;
+
+  outline-offset: 3px;
+}
+
+
+/* =====================================================
+   PROGRESS
+   ===================================================== */
+
+.progress-dots {
+  display: flex;
+
+  gap: 10px;
+
+  margin-top: 18px;
+}
+
+
+.progress-dots span {
+  width: 23px;
+  height: 23px;
+
+  border-radius: 50%;
+
+  border: 1px solid #cbd0e3;
+
+  background: rgba(255,255,255,.35);
+}
+
+
+.progress-dots span.done {
+  border-color: #ee76af;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f6a5ca,
+      #e67cad
+    );
+
+  box-shadow:
+    0 4px 12px rgba(230,124,173,.22);
+}
+
+
+/* =====================================================
+   FOOTER
+   ===================================================== */
+
+.camera-footer {
+  margin-top: 17px;
+
+  font-family: "Comic Sans MS", cursive;
+
+  font-size: 10px;
+
+  color: #8b91b1;
+}
+
+
+.camera-error {
+  color: #d64d67;
+
+  font-size: 12px;
+
+  margin-bottom: 10px;
+}
+
+
+/* =====================================================
+   RESPONSIVE
+   ===================================================== */
+
+@media (max-width: 800px) {
+
+  .booth-layout {
+    grid-template-columns: 1fr;
+
+    width: min(94vw, 700px);
+  }
+
+  .memory-rail {
+    order: 2;
+
+    padding-top: 12px;
+
+    flex-direction: row;
+
+    justify-content: center;
+  }
+
+  .memory-label {
+    display: none;
+  }
+
+  .memory-slot {
+    width: 52px;
+    height: 42px;
+  }
+
+  .camera-column {
+    order: 1;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .camera-topbar {
+    width: 92vw;
+  }
+
+  .camera-frame {
+    border-radius: 18px;
+  }
+
+  .camera-controls {
+    transform: scale(.92);
+  }
+
+  .filter-dots {
+    gap: 8px;
+  }
+
+  .filter-dot {
+    width: 20px;
+    height: 20px;
+  }
+
+}
+/* =========================================================
+   INTERNET PHOTOBOOTH — CAMERA FINAL OVERRIDE
+   ========================================================= */
+
+.camera-stage {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 26px 30px 30px;
+
+  color: #3e466d;
+
+  background:
+    radial-gradient(
+      circle at 10% 20%,
+      rgba(255, 207, 229, 0.62),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 90% 15%,
+      rgba(215, 207, 255, 0.65),
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      rgba(190, 208, 255, 0.55),
+      transparent 40%
+    ),
+    linear-gradient(
+      135deg,
+      #fffaf8 0%,
+      #fff5f7 38%,
+      #f8f4ff 68%,
+      #edf1ff 100%
+    );
+}
+
+/* soft glow */
+.camera-stage::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      circle at 50% 45%,
+      rgba(255,255,255,.75),
+      transparent 42%
+    );
+
+  z-index: 0;
+}
+
+/* subtle dotted paper texture */
+.camera-stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  pointer-events: none;
+
+  opacity: .28;
+
+  background-image:
+    radial-gradient(
+      rgba(93, 105, 158, .18) .7px,
+      transparent .7px
+    );
+
+  background-size: 18px 18px;
+
+  z-index: 0;
+}
+
+
+/* =========================================================
+   DECORATIONS
+   ========================================================= */
+
+.camera-decoration {
+  position: absolute;
+  z-index: 1;
+
+  pointer-events: none;
+
+  font-family: "Caveat", cursive;
+  color: #7181c7;
+
+  opacity: .72;
+}
+
+.camera-star-one {
+  left: 5%;
+  top: 25%;
+  font-size: 20px;
+}
+
+.camera-star-two {
+  right: 8%;
+  top: 28%;
+  font-size: 28px;
+  color: #e57caf;
+}
+
+.camera-heart {
+  left: 21%;
+  top: 28%;
+  font-size: 30px;
+
+  transform: rotate(-10deg);
+}
+
+
+/* =========================================================
+   TOP BAR
+   ========================================================= */
+
+.camera-topbar {
+  position: relative;
+  z-index: 10;
+
+  width: min(820px, 100%);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 16px;
+}
+
+.rec-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+
+  letter-spacing: .18em;
+
+  color: #4b557e;
+}
+
+.rec-indicator i {
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+
+  background: #ff5f75;
+
+  box-shadow:
+    0 0 0 4px rgba(255,95,117,.12),
+    0 0 12px rgba(255,95,117,.55);
+
+  animation: recPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes recPulse {
+  0%,100% {
+    opacity: .65;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.shot-counter {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  gap: 7px;
+
+  color: #4b557e;
+
+  font-family: "DM Mono", monospace;
+  font-size: 13px;
+}
+
+.shot-counter small {
+  position: absolute;
+
+  top: 18px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: max-content;
+
+  font-family: "Caveat", cursive;
+  font-size: 10px;
+
+  color: #7f86ad;
+  letter-spacing: .04em;
+}
+
+.glass-icon-button {
+  width: 40px;
+  height: 40px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 13px;
+
+  border: 1px solid rgba(255,255,255,.78);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,.72),
+      rgba(255,255,255,.32)
+    );
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  color: #6470a3;
+
+  box-shadow:
+    0 10px 30px rgba(85,92,145,.08),
+    inset 0 1px rgba(255,255,255,.9);
+
+  cursor: pointer;
+
+  transition:
+    transform .2s ease,
+    background .2s ease;
+}
+
+.glass-icon-button:hover {
+  transform: translateY(-2px);
+  background: rgba(255,255,255,.78);
+}
+
+
+/* =========================================================
+   MAIN LAYOUT
+   ========================================================= */
+
+.booth-camera-layout {
+  position: relative;
+  z-index: 5;
+
+  width: min(930px, 100%);
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: 18px;
+}
+
+
+/* =========================================================
+   CAMERA COLUMN
+   ========================================================= */
+
+.camera-column {
+  width: min(760px, calc(100vw - 170px));
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   CAMERA FRAME
+   ========================================================= */
+
+.camera-frame {
+  position: relative;
+
+  width: 100%;
+
+  aspect-ratio: 16 / 10;
+
+  overflow: hidden;
+
+  border-radius: 24px;
+
+  background: #ddd9df;
+
+  border: 1px solid rgba(76,82,120,.32);
+
+  box-shadow:
+    0 30px 65px rgba(80,76,120,.18),
+    0 10px 25px rgba(80,76,120,.10);
+
+  isolation: isolate;
+}
+
+
+/* =========================================================
+   REAL VIDEO — IMPORTANT
+   ========================================================= */
+
+.camera-video {
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  background: #ddd9df;
+
+  border-radius: inherit;
+
+  z-index: 1;
+
+  transform-origin: center center;
+
+  transition:
+    transform .3s cubic-bezier(.2,.8,.2,1);
+
+  /* Prevent weird browser video behaviour */
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+
+/* FILTER */
+
+.view-filter {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 2;
+
+  pointer-events: none;
+
+  border-radius: inherit;
+}
+
+
+/* =========================================================
+   CAMERA LOADING
+   ========================================================= */
+
+.camera-loading {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,.45),
+      rgba(238,232,242,.35)
+    );
+
+  backdrop-filter: blur(4px);
+
+  color: #65709f;
+
+  font-family: "Caveat", cursive;
+  font-size: 17px;
+}
+
+.loading-ring {
+  width: 27px;
+  height: 27px;
+
+  border-radius: 50%;
+
+  border:
+    2px solid rgba(100,112,160,.18);
+
+  border-top-color: #e36fa8;
+
+  animation:
+    cameraSpin .8s linear infinite;
+}
+
+@keyframes cameraSpin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* =========================================================
+   CAMERA CORNERS
+   ========================================================= */
+
+.camera-corner {
+  position: absolute;
+
+  width: 34px;
+  height: 34px;
+
+  z-index: 7;
+
+  pointer-events: none;
+}
+
+.corner-tl {
+  top: 22px;
+  left: 22px;
+
+  border-top:
+    2px solid rgba(55,63,99,.78);
+
+  border-left:
+    2px solid rgba(55,63,99,.78);
+}
+
+.corner-tr {
+  top: 22px;
+  right: 22px;
+
+  border-top:
+    2px solid rgba(55,63,99,.78);
+
+  border-right:
+    2px solid rgba(55,63,99,.78);
+}
+
+.corner-bl {
+  bottom: 22px;
+  left: 22px;
+
+  border-bottom:
+    2px solid rgba(55,63,99,.78);
+
+  border-left:
+    2px solid rgba(55,63,99,.78);
+}
+
+.corner-br {
+  bottom: 22px;
+  right: 22px;
+
+  border-bottom:
+    2px solid rgba(55,63,99,.78);
+
+  border-right:
+    2px solid rgba(55,63,99,.78);
+}
+
+
+/* =========================================================
+   GRID
+   ========================================================= */
+
+.camera-grid {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 6;
+
+  pointer-events: none;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  grid-template-rows:
+    repeat(3, 1fr);
+}
+
+.camera-grid span {
+  border-right:
+    1px solid rgba(255,255,255,.42);
+
+  border-bottom:
+    1px solid rgba(255,255,255,.42);
+}
+
+.camera-grid span:nth-child(3n) {
+  border-right: none;
+}
+
+.camera-grid span:nth-child(n+7) {
+  border-bottom: none;
+}
+
+
+/* =========================================================
+   PREVIEW RAIL
+   ========================================================= */
+
+.photo-preview-rail {
+  width: 82px;
+
+  padding-top: 72px;
+
+  flex-shrink: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 13px;
+}
+
+.preview-label {
+  font-family: "Caveat", cursive;
+
+  font-size: 14px;
+
+  color: #6674b3;
+
+  transform: rotate(-4deg);
+}
+
+.preview-slots {
+  display: flex;
+  flex-direction: column;
+
+  gap: 11px;
+}
+
+.preview-slot {
+  position: relative;
+
+  width: 68px;
+  height: 55px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: visible;
+
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,.68),
+      rgba(255,255,255,.28)
+    );
+
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border:
+    1px solid rgba(255,255,255,.82);
+
+  box-shadow:
+    0 8px 24px rgba(80,88,140,.08),
+    inset 0 1px rgba(255,255,255,.9);
+
+  color: #a1a9ca;
+
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+
+  transition:
+    transform .2s ease,
+    border-color .2s ease;
+}
+
+.preview-slot img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  border-radius: 12px;
+
+  display: block;
+}
+
+.preview-slot small {
+  position: absolute;
+
+  bottom: -7px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  padding: 2px 6px;
+
+  border-radius: 10px;
+
+  background: rgba(255,255,255,.82);
+
+  backdrop-filter: blur(8px);
+
+  color: #6974a2;
+
+  font-size: 8px;
+}
+
+.preview-current {
+  border-color: rgba(232,104,170,.72);
+
+  box-shadow:
+    0 0 0 2px rgba(232,104,170,.13),
+    0 12px 28px rgba(232,104,170,.14);
+}
+
+
+/* =========================================================
+   GLASS CONTROL BAR
+   ========================================================= */
+
+.camera-controls {
+  display: flex;
+  align-items: center;
+
+  gap: 4px;
+
+  margin-top: 12px;
+
+  padding: 5px;
+
+  border-radius: 15px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,.72),
+      rgba(255,255,255,.30)
+    );
+
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border:
+    1px solid rgba(255,255,255,.82);
+
+  box-shadow:
+    0 10px 30px rgba(65,73,120,.09),
+    inset 0 1px rgba(255,255,255,.85);
+}
+
+.zoom-control {
+  display: flex;
+  align-items: center;
+
+  height: 35px;
+
+  border-radius: 11px;
+
+  overflow: hidden;
+
+  background: rgba(255,255,255,.24);
+}
+
+.zoom-control button {
+  width: 35px;
+  height: 35px;
+
+  display: grid;
+  place-items: center;
+
+  border: none;
+
+  background: transparent;
+
+  color: #6572a8;
+
+  cursor: pointer;
+
+  transition: background .2s ease;
+}
+
+.zoom-control button:hover:not(:disabled) {
+  background: rgba(231,111,171,.12);
+}
+
+.zoom-control button:disabled {
+  opacity: .3;
+  cursor: default;
+}
+
+.zoom-control span {
+  min-width: 45px;
+
+  text-align: center;
+
+  color: #4e587f;
+
+  font-family: "DM Mono", monospace;
+
+  font-size: 11px;
+}
+
+.glass-control-button {
+  height: 35px;
+
+  display: inline-flex;
+  align-items: center;
+
+  gap: 6px;
+
+  padding: 0 12px;
+
+  border-radius: 11px;
+
+  border:
+    1px solid rgba(255,255,255,.42);
+
+  background: transparent;
+
+  color: #6572a8;
+
+  font-size: 11px;
+
+  cursor: pointer;
+
+  transition:
+    background .2s ease,
+    transform .2s ease;
+}
+
+.glass-control-button:hover {
+  background: rgba(255,255,255,.45);
+
+  transform: translateY(-1px);
+}
+
+.glass-control-button.control-active {
+  background: rgba(225,111,170,.14);
+
+  color: #d45f99;
+}
+
+
+/* =========================================================
+   PROMPT
+   ========================================================= */
+
+.prompt {
+  margin: 18px 0 13px;
+
+  font-family: "Caveat", cursive;
+
+  font-size: 20px;
+
+  color: #a49387;
+
+  letter-spacing: .02em;
+}
+
+
+/* =========================================================
+   SNAP BUTTON
+   ========================================================= */
+
+.snap-button {
+  min-width: 148px;
+
+  height: 49px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+
+  border: none;
+
+  border-radius: 999px;
+
+  color: #30243b;
+
+  background:
+    linear-gradient(
+      135deg,
+      #f49bc4 0%,
+      #e96ea9 50%,
+      #dc75c4 100%
+    );
+
+  box-shadow:
+    0 12px 28px rgba(221,104,164,.25),
+    inset 0 1px rgba(255,255,255,.55);
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  transition:
+    box-shadow .2s ease,
+    filter .2s ease;
+}
+
+.snap-button:hover:not(:disabled) {
+  filter: brightness(1.04);
+
+  box-shadow:
+    0 16px 32px rgba(221,104,164,.30),
+    inset 0 1px rgba(255,255,255,.65);
+}
+
+.snap-button:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+}
+
+.snap-arrow {
+  font-size: 16px;
+}
+
+
+/* =========================================================
+   COUNTDOWN
+   ========================================================= */
+
+.countdown {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 9;
+
+  display: grid;
+
+  place-items: center;
+
+  font-family: "DM Mono", monospace;
+
+  font-size: clamp(70px, 13vw, 150px);
+
+  font-weight: 700;
+
+  color: white;
+
+  text-shadow:
+    0 5px 25px rgba(0,0,0,.28);
+}
+
+
+/* =========================================================
+   FLASH
+   ========================================================= */
+
+.flash {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 20;
+
+  background: white;
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   MOOD / PROGRESS
+   ========================================================= */
+
+.mood-label {
+  display: flex;
+  align-items: center;
+
+  gap: 9px;
+
+  margin-top: 17px;
+
+  font-family: "Caveat", cursive;
+
+  font-size: 13px;
+
+  color: #737ca7;
+}
+
+.mood-label span {
+  color: #e274ac;
+}
+
+.progress-dots {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  margin-top: 13px;
+}
+
+.progress-dots span {
+  width: 24px;
+  height: 24px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  border:
+    1px solid #cbd0e3;
+
+  background: rgba(255,255,255,.3);
+
+  color: #8991b5;
+
+  font-family: "DM Mono", monospace;
+
+  font-size: 9px;
+
+  transition: all .2s ease;
+}
+
+.progress-dots span.current {
+  border-color: #ea72ad;
+
+  color: #ea72ad;
+
+  box-shadow:
+    0 0 0 3px rgba(234,114,173,.11);
+}
+
+.progress-dots span.done {
+  background: #ea72ad;
+
+  border-color: #ea72ad;
+
+  color: white;
+}
+
+.camera-footer-note {
+  margin-top: 13px;
+
+  font-family: "Caveat", cursive;
+
+  font-size: 11px;
+
+  color: #969bb9;
+}
+
+
+/* =========================================================
+   ERROR
+   ========================================================= */
+
+.camera-error {
+  max-width: 500px;
+
+  margin: 10px 0;
+
+  padding: 10px 16px;
+
+  border-radius: 12px;
+
+  background: rgba(255,100,130,.08);
+
+  border:
+    1px solid rgba(255,100,130,.18);
+
+  color: #c96a82;
+
+  font-size: 12px;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 850px) {
+
+  .booth-camera-layout {
+    width: 96vw;
+
+    gap: 10px;
+  }
+
+  .camera-column {
+    width:
+      calc(100vw - 125px);
+  }
+
+  .photo-preview-rail {
+    width: 70px;
+    padding-top: 55px;
+  }
+
+  .preview-slot {
+    width: 58px;
+    height: 48px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .camera-stage {
+    padding: 20px 12px 25px;
+  }
+
+  .booth-camera-layout {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .camera-column {
+    width: 94vw;
+  }
+
+  .photo-preview-rail {
+    order: 2;
+
+    width: 100%;
+
+    padding-top: 12px;
+  }
+
+  .preview-slots {
+    flex-direction: row;
+  }
+
+  .camera-controls {
+    transform: scale(.92);
+  }
+
+  .camera-heart,
+  .camera-star-one,
+  .camera-star-two {
+    display: none;
+  }
+}
